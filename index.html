@@ -13,14 +13,31 @@
         <nav class="navbar">
             <a class="nav-item" href="#recent">New</a>
             <a class="nav-item" href="#favorites">Favorites</a>
-            <a class="nav-item" href="#games">Games</a>
+            <div class="nav-dropdown-parent">
+                <a class="nav-item" href="#games">Games &#8595;</a>
+                <div class="nav-dropdown hidden">
+                    <ul>
+                        <li><a href="#">Dexterity</a></li>
+                        <hr>
+                        <li><a href="#">Push Your Luck</a></li>
+                        <hr>
+                        <li><a href="#">Social Deduction</a></li>
+                        <hr>
+                        <li><a href="#">Trick-Taking Game</a></li>
+                        <hr>
+                        <li><a href="#">Card Game</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
     <main>
+        <p>Welcome to Ryan's Board Games. Here, you can check out every board game Ryan has, including his favorite games and the games most recently added to his collection. You can even search by genre of game!</p>
         <h2 id="recent" class="section-title">Recently Added Games</h2>
         <h2 id="favorites" class="section-title">Ryan's Favorites</h2>
-        <div class="favorites-container games-container hidden"></div>
+        <div class="favorites-parent-container parent-container hidden"><div class="favorites-container"></div></div></div>
         <h2 id="games" class="section-title">All the Games</h2>
+        <div class="all-games-parent-container parent-container hidden"><div class="all-games-container"></div></div>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./script.js"></script>
