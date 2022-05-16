@@ -8,6 +8,7 @@ body {
 
 main {
     margin: 0 10px;
+    /* background-color: #1E2025; */
 }
 
 @font-face {
@@ -20,6 +21,11 @@ h1, h2, h3, h4, h5, h6 {
     font-family: helvetica-neue, sans-serif;
     letter-spacing: 2px;
     margin: 0;
+}
+
+header h1 {
+    text-align: left;
+    margin: 10px;
 }
 
 h1 {
@@ -36,8 +42,9 @@ p {
 
 header {
     background-color: #1f3944;
-    color: #36fefd;
-    padding-top: 10px;
+    /* color: #36fefd; */
+    color: white;
+    padding-top: 5px;
 }
 
 button {
@@ -110,9 +117,59 @@ button {
 }
 
 .game {
-    border: 1px solid #1f3944;
+    border: 2px solid #1f3944;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.game p {
+    margin-top: 5px;
+}
+
+.game-head {
+    background-color: #1f3944;
+    color: white;
+    width: 100%;
+    margin: 0;
     padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.description {
+    max-height: 150px;
+    overflow-y: scroll;
+    padding-right: 5px;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
+  }
+
+/* .testy:before {
+    
+        content:'';
+        width:100%;
+        height:100%;    
+        position:absolute;
+        left:0;
+        top:0;
+        background:linear-gradient(transparent 500px, white);
+      
+} */
+
+.game-body {
     margin: 0 10px;
+    max-width: 300px;
     margin-bottom: 10px;
     display: flex;
     flex-direction: column;
@@ -125,13 +182,17 @@ button {
 
 .img-container {
     max-width: 300px;
+    margin: 5px;
 }
 
 img {
     width: 100%;
+    padding: 2.5px;
+    border: 2px solid #1f3944;
+    border-radius: 10px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 600px) {
     .parent-container > * {
         display: flex;
         flex-wrap: wrap;
