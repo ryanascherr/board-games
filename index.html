@@ -8,6 +8,7 @@
     <title>Ryan's Board Games</title>
 </head>
 <body>
+    <a href="#" class="back-to-top"><img src="./img/back-to-top.png" alt=""></a>
     <header>
         <h1>Ryan's Board Games</h1>
         <!-- <div class="collapsable-menu">
@@ -19,26 +20,9 @@
             <button class="nav-item all">All</button>
             <button class="nav-item wishlist">Wishlist</button>
             <button class="nav-item search">Search</button>
-            <!-- <div class="nav-dropdown-parent">
-                <a class="nav-item" href="#games">Games</a>
-                <div class="nav-dropdown hidden">
-                    <ul>
-                        <li><a href="#">Dexterity</a></li>
-                        <hr>
-                        <li><a href="#">Push Your Luck</a></li>
-                        <hr>
-                        <li><a href="#">Social Deduction</a></li>
-                        <hr>
-                        <li><a href="#">Trick-Taking Game</a></li>
-                        <hr>
-                        <li><a href="#">Card Game</a></li>
-                    </ul>
-                </div>
-            </div> -->
         </nav>
     </header>
     <main>
-        <!-- <p>Welcome to Ryan's Board Games. Here, you can check out every board game Ryan has, including his favorite games and the games most recently added to his collection. You can even search by genre of game!</p> -->
         <div class="recent-parent-container parent-container">
             <h2 id="recent">~ Recently Added ~</h2>
             <div class="recent-container"></div>
@@ -57,10 +41,50 @@
         </div>
         <div class="search-parent-container hidden parent-container">
             <h2 id="search">~ Search for Games ~</h2>
+            <h3 class="tag-title">Click on a genre to find matching games</h3>
+            <div class="tags">
+                <div class="tag" data-tag="Card Game">Card Game</div>
+                <div class="tag" data-tag="City Building">City Building</div>
+                <div class="tag" data-tag="Deduction">Deduction</div>
+                <div class="tag" data-tag="Dexterity">Dexterity</div>
+                <div class="tag" data-tag="Exploration">Exploration</div>
+                <div class="tag" data-tag="Gambling">Gambling</div>
+                <div class="tag" data-tag="Grid Coverage">Grid Coverage</div>
+                <div class="tag" data-tag="Number">Number</div>
+                <div class="tag" data-tag="Political">Political</div>
+                <div class="tag" data-tag="Party Game">Party Game</div>
+                <div class="tag" data-tag="Push Your Luck">Push Your Luck</div>
+                <div class="tag" data-tag="Resource Management">Resource Management</div>
+                <div class="tag" data-tag="Social Deduction">Social Deduction</div>
+                <div class="tag" data-tag="Strategy">Strategy</div>
+                <div class="tag" data-tag="Territory Building">Territory Building</div>
+                <div class="tag" data-tag="Trick-Taking Game">Trick-Taking Game</div>
+                <div class="tag" data-tag="Trivia">Trivia</div>
+                <div class="tag" data-tag="Word Game">Word Game</div>
+            </div>
             <div class="search-container"></div>
         </div>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./script.js"></script>
+    <script>
+        $(function(){ 
+		var offset = 250; 
+		var duration = 300;
+		$(window).scroll(function() {
+			if ($(this).scrollTop() > offset) {
+				$('.back-to-top').fadeIn(duration);
+			} else {
+				$('.back-to-top').fadeOut(duration);
+			}
+		});
+	   
+		$('.back-to-top').click(function(event) {
+			event.preventDefault();
+			$('html, body').animate({scrollTop: 0}, duration);
+			return false;
+		});
+});
+    </script>
 </body>
 </html>

@@ -170,7 +170,7 @@ const gamesList = [
         playTime: 30,
         description: "In an abandoned warehouse a gangster band is splitting its loot, but they can't agree on the split! It's time to let the guns talk and soon everyone is aiming at everyone. The richest surviving gangster wins the game! Ca$h 'n Guns helps you relive the best scenes of your favorite gangster movies. The goal is to have more money than anyone else after eight rounds while still being alive.",
         img: "./img/cash-n-guns.png",
-        genre: "Bluffing",
+        genre: "Party Game",
         favorite: false
     },
     {
@@ -251,7 +251,7 @@ const gamesList = [
         playTime: 25,
         description: "In Patchwork, two players compete to build the most aesthetic (and high-scoring) patchwork quilt on a personal 9x9 game board. To start play, lay out all of the patches at random in a circle and place a marker directly clockwise of the 2-1 patch. Each player takes five buttons — the currency/points in the game — and someone is chosen as the start player. On a turn, a player either purchases one of the three patches standing clockwise of the spool or passes. To purchase a patch, you pay the cost in buttons shown on the patch, move the spool to that patch's location in the circle, add the patch to your game board, then advance your time token on the time track a number of spaces equal to the time shown on the patch. You're free to place the patch anywhere on your board that doesn't overlap other patches, but you probably want to fit things together as tightly as possible. If your time token is behind or on top of the other player's time token, then you take another turn; otherwise the opponent now goes. Instead of purchasing a patch, you can choose to pass; to do this, you move your time token to the space immediately in front of the opponent's time token, then take one button from the bank for each space you moved.",
         img: "./img/patchwork.png",
-        genre: "Strategy",
+        genre: "Grid Coverage",
         favorite: false
     },
     {
@@ -531,7 +531,7 @@ $.each(sortedArray, function() {
 });
 
 $.each(sortedArray, function() {
-    if (this.new) {
+    if (this.new && !this.favorite) {
         $(".recent-container").append(
         `<div class="game">
         <div class="game-head">
@@ -547,6 +547,23 @@ $.each(sortedArray, function() {
         <p class="description">${this.description}</p>
         </div>
         </div>`)
+    }
+    if (this.new && this.favorite) {
+        $(".recent-container").append(
+            `<div class="game">
+            <div class="game-head">
+            <h3>${this.name}</h3>
+            </div>
+            <div class="game-body">
+            <div class="img-container"><img class="favorite" src="${this.img}"></div>
+            <ul>
+            <li>Player Count: ${this.playerCount}</li>
+            <li>Play Time: ${this.playTime} minutes</li>
+            <li>Genre: ${this.genre}</li>
+            </ul>
+            <p class="description">${this.description}</p>
+            </div>
+            </div>`)
     }
 });
 
@@ -595,4 +612,77 @@ $(".all").click(function() {
 $(".wishlist").click(function() {
     $(".parent-container").addClass("hidden");
     $(".wishlist-parent-container").removeClass("hidden");
+})
+
+$(".search").click(function() {
+    $(".parent-container").addClass("hidden");
+    $(".tag").removeClass("selected-tag");
+    $(".search-parent-container").removeClass("hidden");
+})
+
+// let arrayOfTags = [];
+$(".tag").click(function() {
+    let tag = $(this).data("tag");
+
+    $(".search-container").empty();
+
+    // if ($(this).hasClass("selected-tag")) {
+    //     $(this).removeClass("selected-tag");
+    //     arrayOfTags.splice($.inArray(tag, arrayOfTags), 1 );
+    //     console.log(arrayOfTags);
+    // } else {
+    //     $(this).addClass("selected-tag");
+    //     arrayOfTags.push(tag);
+    //     console.log(arrayOfTags); 
+    // }
+
+    $(".tag").removeClass("selected-tag");
+    $(this).addClass("selected-tag");
+
+    $.each(sortedArray, function() {
+        if (tag == this.genre && !this.wishlist) {
+            $(".search-container").append(
+                `<div class="game">
+                <div class="game-head">
+                <h3>${this.name}</h3>
+                </div>
+                <div class="game-body">
+                <div class="img-container"><img src="${this.img}"></div>
+                <ul>
+                <li>Player Count: ${this.playerCount}</li>
+                <li>Play Time: ${this.playTime} minutes</li>
+                <li>Genre: ${this.genre}</li>
+                </ul>
+                <p class="description">${this.description}</p>
+                </div>
+                </div>`)
+        }
+    })
+
+    // $.each(sortedArray, function () {
+    //     let matchesAll = true;
+    //     $.each(this.genre, function () {
+    //         if (arrayOfTags.includes(this)) return;
+    //         if (!arrayOfTags.includes(this)) {
+    //             matchesAll = false;
+    //         }
+    //     })
+    //     if (matchesAll) {
+    //         $(".search-container").append(
+    //             `<div class="game">
+    //             <div class="game-head">
+    //             <h3>${this.name}</h3>
+    //             </div>
+    //             <div class="game-body">
+    //             <div class="img-container"><img src="${this.img}"></div>
+    //             <ul>
+    //             <li>Player Count: ${this.playerCount}</li>
+    //             <li>Play Time: ${this.playTime} minutes</li>
+    //             <li>Genre: ${this.genre}</li>
+    //             </ul>
+    //             <p class="description">${this.description}</p>
+    //             </div>
+    //             </div>`)
+    //     }
+    // })
 })
