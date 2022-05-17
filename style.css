@@ -126,7 +126,7 @@ button {
 .game {
     border: 2px solid #1f3944;
     border-radius: 10px;
-    margin: 10px;
+    margin: 10px auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -197,13 +197,14 @@ button {
 }
 
 .tag {
-    border: 2px solid black;
+    border: 2px solid #1f3944;
+    border-radius: 10px;
     padding: 5px;
     margin: 10px;
 }
 
 .selected-tag {
-    background-color: black;
+    background-color: #1f3944;
     color: white;
 }
 
@@ -227,6 +228,7 @@ button {
     }
     .game {
         width: 45%;
+        margin: 10px;
     }
 }
 
