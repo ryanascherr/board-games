@@ -24,8 +24,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header h1 {
-    text-align: left;
-    margin: 10px;
+    /* text-align: left; */
+    margin: 10px 0 20px;
 }
 
 h1 {
@@ -33,7 +33,7 @@ h1 {
 }
 
 h2 {
-    margin-top: 25px;
+    margin: 25px 0 15px;
 }
 
 p {
@@ -81,9 +81,16 @@ button {
     border-right: 2px solid #1f3944;
     transition: .25s all;
     text-decoration: none;
+    width: 75px;
+    text-align: center;
 }
 
 .nav-item:hover {
+    background-color: #1f3944;
+    color: #36fefd;
+}
+
+.selected {
     background-color: #1f3944;
     color: #36fefd;
 }
@@ -155,18 +162,6 @@ button {
     -webkit-box-shadow: 0 0 1px rgba(255, 255, 255, .5);
   }
 
-/* .testy:before {
-    
-        content:'';
-        width:100%;
-        height:100%;    
-        position:absolute;
-        left:0;
-        top:0;
-        background:linear-gradient(transparent 500px, white);
-      
-} */
-
 .game-body {
     margin: 0 10px;
     max-width: 300px;
@@ -190,6 +185,10 @@ img {
     padding: 2.5px;
     border: 2px solid #1f3944;
     border-radius: 10px;
+}
+
+.favorite {
+    border: 2px solid goldenrod;
 }
 
 @media screen and (min-width: 600px) {

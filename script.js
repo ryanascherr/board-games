@@ -89,7 +89,7 @@ const gamesList = [
         description: "Hive is a highly addictive strategic game for two players that is not restricted by a board and can be played anywhere on any flat surface. Hive is made up of twenty two pieces, eleven black and eleven white, resembling a variety of creatures each with a unique way of moving. With no setting up to do, the game begins when the first piece is placed down. As the subsequent pieces are placed this forms a pattern that becomes the playing surface (the pieces themselves become the board). Unlike other such games, the pieces are never eliminated and not all have to be played. The object of the game is to totally surround your opponent's queen, while at the same time trying to block your opponent from doing likewise to your queen. The player to totally surround his opponent's queen wins the game.",
         img: "./img/hive.png",
         genre: "Strategy",
-        favorite: false
+        favorite: true
     },
     {
         name: "A Little Wordy",
@@ -433,12 +433,47 @@ const gamesList = [
         img: "./img/anomia.png",
         genre: "Party Game",
         favorite: false
+    },
+    {
+        name: "No Thanks!",
+        playerCount: "3-7",
+        playTime: 20,
+        description: "The rules are simple. Each turn, players have two options: play one of their chips to avoid picking up the current face-up card, or pick up the face-up card (along with any chips that have already been played on that card) and turn over the next card. However, the choices aren't so easy as players compete to have the lowest score at the end of the game. The deck of cards is numbered from 3 to 35, with each card counting for a number of points equal to its face value. Runs of two or more cards only count as the lowest value in the run - but nine cards are removed from the deck before starting, so be careful looking for connectors. Each chip is worth -1 point, but they can be even more valuable by allowing you to avoid drawing that unwanted card.",
+        img: "./img/no-thanks.png",
+        genre: "Card Game",
+        favorite: false,
+        new: true
+    },
+    {
+        name: "Doodle Dash!",
+        playerCount: "3-7",
+        playTime: 20,
+        description: "Doodle Dash is a party game where the players draw the same word at the same time. It's a drawing competition where speed can beat skill, so anyone can win! Win by being the fastest doodler, but watch out - you only score if the guesser can actually tell what your drawing is!",
+        img: "./img/doodle-dash.png",
+        genre: "Party Game",
+        favorite: false,
+        new: true
+    },
+    {
+        name: "Blood on the Clocktower",
+        playerCount: "5-20",
+        playTime: 75,
+        description: "Blood on the Clocktower is a bluffing game enjoyed by 5 to 20 players on opposing teams of Good and Evil, overseen by a Storyteller player who conducts the action and makes crucial decisions. The goal of the game is to successfully deduce and execute the demons before they outnumber the townfolk.",
+        img: "./img/clocktower.png",
+        genre: "Social Deduction",
+        favorite: false,
+        new: false,
+        wishlist: true
     }
 ]
 
+let sortedArray= gamesList.sort(function(a, b) {
+    return a.name.localeCompare(b.name);
+});
 
+console.log(sortedArray);
 
-$.each(gamesList, function() {
+$.each(sortedArray, function() {
     if (this.favorite) {
         $(".favorites-container").append(
         `<div class="game">
@@ -446,7 +481,7 @@ $.each(gamesList, function() {
         <h3>${this.name}</h3>
         </div>
         <div class="game-body">
-        <div class="img-container"><img src="${this.img}"></div>
+        <div class="img-container"><img class="favorite" src="${this.img}"></div>
         <ul>
         <li>Player Count: ${this.playerCount}</li>
         <li>Play Time: ${this.playTime} minutes</li>
@@ -458,25 +493,44 @@ $.each(gamesList, function() {
     }
 });
 
-$.each(gamesList, function() {
-    $(".all-games-container").append(
-        `<div class="game">
-        <div class="game-head">
-        <h3>${this.name}</h3>
-        </div>
-        <div class="game-body">
-        <div class="img-container"><img src="${this.img}"></div>
-        <ul>
-        <li>Player Count: ${this.playerCount}</li>
-        <li>Play Time: ${this.playTime} minutes</li>
-        <li>Genre: ${this.genre}</li>
-        </ul>
-        <p class="description">${this.description}</p>
-        </div>
-        </div>`)
+$.each(sortedArray, function() {
+    if (!this.wishlist && !this.favorite) {
+        $(".all-container").append(
+            `<div class="game">
+            <div class="game-head">
+            <h3>${this.name}</h3>
+            </div>
+            <div class="game-body">
+            <div class="img-container"><img src="${this.img}"></div>
+            <ul>
+            <li>Player Count: ${this.playerCount}</li>
+            <li>Play Time: ${this.playTime} minutes</li>
+            <li>Genre: ${this.genre}</li>
+            </ul>
+            <p class="description">${this.description}</p>
+            </div>
+            </div>`)
+    }
+    if (!this.wishlist && this.favorite) {
+        $(".all-container").append(
+            `<div class="game">
+            <div class="game-head">
+            <h3>${this.name}</h3>
+            </div>
+            <div class="game-body">
+            <div class="img-container"><img class="favorite" src="${this.img}"></div>
+            <ul>
+            <li>Player Count: ${this.playerCount}</li>
+            <li>Play Time: ${this.playTime} minutes</li>
+            <li>Genre: ${this.genre}</li>
+            </ul>
+            <p class="description">${this.description}</p>
+            </div>
+            </div>`)
+    }
 });
 
-$.each(gamesList, function() {
+$.each(sortedArray, function() {
     if (this.new) {
         $(".recent-container").append(
         `<div class="game">
@@ -496,18 +550,49 @@ $.each(gamesList, function() {
     }
 });
 
-$("#favorites").click(function() {
-    $(".favorites-parent-container").slideToggle("slow");
+$.each(sortedArray, function() {
+    if (this.wishlist) {
+        $(".wishlist-container").append(
+        `<div class="game">
+        <div class="game-head">
+        <h3>${this.name}</h3>
+        </div>
+        <div class="game-body">
+        <div class="img-container"><img src="${this.img}"></div>
+        <ul>
+        <li>Player Count: ${this.playerCount}</li>
+        <li>Play Time: ${this.playTime} minutes</li>
+        <li>Genre: ${this.genre}</li>
+        </ul>
+        <p class="description">${this.description}</p>
+        </div>
+        </div>`)
+    }
 });
 
-$("#games").click(function() {
-    $(".all-games-parent-container").slideToggle("slow");
-});
+$(".recent").addClass("selected");
 
-$("#recent").click(function() {
-    $(".recent-parent-container").slideToggle("slow");
-});
+$(".nav-item").click(function() {
+    $(".nav-item").removeClass("selected");
+    $(this).addClass("selected");
+})
 
-$(".nav-dropdown-parent").click(function() {
-    $(".nav-dropdown").toggleClass("hidden");
-});
+$(".recent").click(function() {
+    $(".parent-container").addClass("hidden");
+    $(".recent-parent-container").removeClass("hidden");
+})
+
+$(".favorites").click(function() {
+    $(".parent-container").addClass("hidden");
+    $(".favorites-parent-container").removeClass("hidden");
+})
+
+$(".all").click(function() {
+    $(".parent-container").addClass("hidden");
+    $(".all-parent-container").removeClass("hidden");
+})
+
+$(".wishlist").click(function() {
+    $(".parent-container").addClass("hidden");
+    $(".wishlist-parent-container").removeClass("hidden");
+})

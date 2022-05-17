@@ -9,14 +9,17 @@
 </head>
 <body>
     <header>
-        <h1>Ryan's BGs</h1>
-        <div class="collapsable-menu">
+        <h1>Ryan's Board Games</h1>
+        <!-- <div class="collapsable-menu">
             menu
-        </div>
+        </div> -->
         <nav class="navbar">
-            <a class="nav-item" href="#recent">Recent</a>
-            <a class="nav-item" href="#favorites">Favorites</a>
-            <div class="nav-dropdown-parent">
+            <button class="nav-item recent">Recent</button>
+            <button class="nav-item favorites">Favorites</button>
+            <button class="nav-item all">All</button>
+            <button class="nav-item wishlist">Wishlist</button>
+            <button class="nav-item search">Search</button>
+            <!-- <div class="nav-dropdown-parent">
                 <a class="nav-item" href="#games">Games</a>
                 <div class="nav-dropdown hidden">
                     <ul>
@@ -31,17 +34,31 @@
                         <li><a href="#">Card Game</a></li>
                     </ul>
                 </div>
-            </div>
+            </div> -->
         </nav>
     </header>
     <main>
         <!-- <p>Welcome to Ryan's Board Games. Here, you can check out every board game Ryan has, including his favorite games and the games most recently added to his collection. You can even search by genre of game!</p> -->
-        <h2 id="recent" class="">Recently Added Games</h2>
-        <div class="recent-parent-container parent-container"><div class="recent-container"></div></div></div>
-        <h2 id="favorites" class="section-title">Ryan's Favorites</h2>
-        <div class="favorites-parent-container parent-container hidden"><div class="favorites-container"></div></div></div>
-        <h2 id="games" class="section-title">All the Games</h2>
-        <div class="all-games-parent-container parent-container hidden"><div class="all-games-container"></div></div>
+        <div class="recent-parent-container parent-container">
+            <h2 id="recent">~ Recently Added ~</h2>
+            <div class="recent-container"></div>
+        </div>
+        <div class="favorites-parent-container hidden parent-container">
+            <h2 id="favorites">~ Favorites ~</h2>
+            <div class="favorites-container"></div>
+        </div>
+        <div class="all-parent-container hidden parent-container">
+            <h2 id="all">~ All Games ~</h2>
+            <div class="all-container"></div>
+        </div>
+        <div class="wishlist-parent-container hidden parent-container">
+            <h2 id="wishlist">~ Wishlist ~</h2>
+            <div class="wishlist-container"></div>
+        </div>
+        <div class="search-parent-container hidden parent-container">
+            <h2 id="search">~ Search for Games ~</h2>
+            <div class="search-container"></div>
+        </div>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./script.js"></script>
