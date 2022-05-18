@@ -445,7 +445,7 @@ const gamesList = [
         new: true
     },
     {
-        name: "Doodle Dash!",
+        name: "Doodle Dash",
         playerCount: "3-7",
         playTime: 20,
         description: "Doodle Dash is a party game where the players draw the same word at the same time. It's a drawing competition where speed can beat skill, so anyone can win! Win by being the fastest doodler, but watch out - you only score if the guesser can actually tell what your drawing is!",
@@ -464,14 +464,34 @@ const gamesList = [
         favorite: false,
         new: false,
         wishlist: true
+    },
+    {
+        name: "Root",
+        playerCount: "2-4",
+        playTime: 75,
+        description: "Root is a game of adventure and war in which 2 to 4 (1 to 6 with the 'Riverfolk' expansion) players battle for control of a vast wilderness. The nefarious Marquise de Cat has seized the great woodland, intent on harvesting its riches. Under her rule, the many creatures of the forest have banded together. This Alliance will seek to strengthen its resources and subvert the rule of Cats. In this effort, the Alliance may enlist the help of the wandering Vagabonds who are able to move through the more dangerous woodland paths. Though some may sympathize with the Alliance's hopes and dreams, these wanderers are old enough to remember the great birds of prey who once controlled the woods. Meanwhile, at the edge of the region, the proud, squabbling Eyrie have found a new commander who they hope will lead their faction to resume their ancient birthright. The stage is set for a contest that will decide the fate of the great woodland. It is up to the players to decide which group will ultimately take root.",
+        img: "./img/root.png",
+        genre: "Wargame",
+        favorite: false,
+        new: false,
+        wishlist: true
+    },
+    {
+        name: "Modern Art",
+        playerCount: "3-5",
+        playTime: 45,
+        description: "Buying and selling paintings can be a very lucrative business. Five different artists have produced a bunch of paintings, and it's the player's task to be both the buyer and the seller, hopefully making a profit in both roles. He does this by putting a painting from his hand up for auction each turn. He gets the money if some other player buys it, but must pay the bank if he buys it for himself. After each round, paintings are valued by the number of paintings of that type that were sold. The broker with the most cash after four rounds is the winner.",
+        img: "./img/modern-art.png",
+        genre: "Auction",
+        favorite: false,
+        new: false,
+        wishlist: true
     }
 ]
 
 let sortedArray= gamesList.sort(function(a, b) {
     return a.name.localeCompare(b.name);
 });
-
-console.log(sortedArray);
 
 $.each(sortedArray, function() {
     if (this.favorite) {
