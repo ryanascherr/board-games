@@ -13,7 +13,7 @@ const gamesList = [
         name: "Take 5 (6 Nimmt)",
         playerCount: "3-7",
         playTime: 20,
-        description: "In 6 nimmt!, you want to score as few points as possible. To play the game, you shuffle the 104 number cards, lay out four cards face-up to start the four rows, then deal ten cards to each player. Each turn, players simultaneously choose and reveal a card from their hand, then add the cards to the rows, with cards being placed in ascending order based on their number; specifically, each card is placed in the row that ends with the highest number that's below the card's number. When the sixth card is placed in a row, the owner of that card claims the other five cards and the sixth card becomes the first card in a new row.",
+        description: "In 6 nimmt!, you want to score as few points as possible. Each turn, players simultaneously choose and reveal a card from their hand and then add the cards to rows. When the sixth card is placed in a row, the owner of that card claims the other five cards gains all the points on those cards.",
         img: "./img/take-5.png",
         genre: "Card Game",
         favorite: false,
@@ -50,7 +50,7 @@ const gamesList = [
         name: "Codenames",
         playerCount: "2-8",
         playTime: 15,
-        description: "Codenames is an easy party game to solve puzzles. The game is divided into red and blue, each side has a team leader, the team leader's goal is to lead their team to the final victory. At the beginning of the game, there will be 25 cards on the table with different words. Each card has a corresponding position, representing different colors. Only the team leader can see the color of the card. The team leader should prompt according to the words, let his team members find out the cards of their corresponding colors, and find out all the cards of their own colors to win.",
+        description: "In Codenames, there will be 25 cards on the table with different words. Each team leader wants their team to guess a list of words, and they do so by giving clues about them. A team wins when they guess all of their words.",
         img: "./img/codenames.png",
         genre: "Card Game",
         favorite: false
@@ -95,7 +95,7 @@ const gamesList = [
         name: "A Little Wordy",
         playerCount: "2",
         playTime: 10,
-        description: "Here's how it works: You're each given a pile of letters. Rearrange your letters until you come up with a word. Be sneaky and choose a word that your opponent won't easily guess. Write it down, keep it a secret. Rescramble your tiles, pass them to your opponent. The goal is to examine your opponent's tiles and try to figure out their word. You do this with Clue Cards. These tell you things such as: what's the first letter, how long's the word, or what does it rhyme with? You win by using as FEW of these clue cards as possible to figure out what word your opponent wrote down.",
+        description: "Each player given a pile of letters and must rearrange your letters to form a word that their opponent won't easily guess. The goal is to examine your opponent's tiles and try to figure out their word. You do this with Clue Cards. You win by using as FEW of these clue cards as possible to figure out what word your opponent wrote down.",
         img: "./img/wordy.png",
         genre: "Word Game",
         favorite: false
@@ -132,7 +132,7 @@ const gamesList = [
         name: "Arboretum",
         playerCount: "2-4",
         playTime: 30,
-        description: "Arboretum is a strategy card game for 2-4 players, aged 10 and up, that combines set collection, tile-laying and hand management while playing in about 25 minutes. Players try to have the most points at the end of the game by creating beautiful garden paths for their visitors. The deck has 80 cards in ten different colors, with each color featuring a different species of tree; each color has cards numbered 1 through 8, and the number of colors used depends on the number of players. Players start with a hand of seven cards. On each turn, a player draws two cards (from the deck or one or more of the discard piles), lays a card on the table as part of her arboretum, then discards a card to her personal discard pile.",
+        description: "Players try to have the most points at the end of the game by creating beautiful garden paths for their visitors with their tree cards. Each turn, a player draws two cards, lays a card on the table as part of her arboretum, then discards a card to her personal discard pile.",
         img: "./img/arboretum.png",
         genre: "Card Game",
         favorite: true
@@ -168,7 +168,7 @@ const gamesList = [
         name: "Ca$h 'n Guns",
         playerCount: "4-8",
         playTime: 30,
-        description: "In an abandoned warehouse a gangster band is splitting its loot, but they can't agree on the split! It's time to let the guns talk and soon everyone is aiming at everyone. The richest surviving gangster wins the game! Ca$h 'n Guns helps you relive the best scenes of your favorite gangster movies. The goal is to have more money than anyone else after eight rounds while still being alive.",
+        description: "In an abandoned warehouse a gangster band is splitting its loot, but they can't agree on the split! It's time to let the guns talk and soon everyone is aiming at everyone. The richest surviving gangster wins the game! The goal is to have more money than anyone else after eight rounds while still being alive.",
         img: "./img/cash-n-guns.png",
         genre: "Party Game",
         favorite: false
@@ -186,7 +186,7 @@ const gamesList = [
         name: "Dungeon Mayhem",
         playerCount: "2-6",
         playTime: 10,
-        description: "In the action-packed Dungeons & Dragons card game Dungeon Mayhem, you win by being the last adventurer standing. Play as one of four brave, quirky characters — barbarian, paladin, rogue, or wizard — battling it out in a dungeon full of treasure! With magic missiles flinging, dual daggers slinging, and spiked shields dinging, it's up to you to prove your adventurer has the guts to bring home the glory!",
+        description: "In Dungeons & Dragons card game Dungeon Mayhem, you win by being the last adventurer standing. Play as one of four characters, battling it out in a dungeon full of treasure! You win if you're the last character alive.",
         img: "./img/dungeon-mayhem.png",
         genre: "Card Game",
         favorite: false
@@ -195,7 +195,7 @@ const gamesList = [
         name: "Disney Villainous",
         playerCount: "2-6",
         playTime: 50,
-        description: "In Villainous, each player takes control of one of six Disney characters, each one a villain in a different Disney movie. Each player has their own villain deck, fate deck, player board, and 3D character. On a turn, the active player moves their character to a different location on their player board, takes one or more of the actions visible on that space (often by playing cards from their hand), then refills their hand to four cards. Cards are allies, items, effects, conditions, and (for some characters) curses. You need to use your cards to fulfill your unique win condition.",
+        description: "In Villainous, each player takes control of one of six Disney characters. On a turn, the active player takes one or more of the actions visible on that space (often by playing cards from their hand). Cards are allies, items, effects, conditions, and curses. You need to use your cards to fulfill your unique win condition.",
         img: "./img/villainous.png",
         genre: "Card Game",
         favorite: false
@@ -285,7 +285,7 @@ const gamesList = [
         name: "Forbidden Desert",
         playerCount: "2-5",
         playTime: 45,
-        description: "Gear up for a thrilling adventure to recover a legendary flying machine buried deep in the ruins of an ancient desert city. You'll need to coordinate with your teammates and use every available resource if you hope to survive the scorching heat and relentless sandstorm. Find the flying machine and escape before you all become permanent artifacts of the forbidden desert! In Forbidden Desert, a thematic sequel to Forbidden Island, players take on the roles of brave adventurers who must throw caution to the wind and survive both blistering heat and blustering sand in order to recover a legendary flying machine buried under an ancient desert city. While featuring cooperative gameplay similar to Forbidden Island, Forbidden Desert is a fresh, new game based around an innovative set of mechanisms such as an ever-shifting board, individual resource management, and a unique method for locating the flying machine parts.",
+        description: "In Forbidden Desert, you'll need to coordinate with your teammates and use every available resource if you hope to survive the scorching heat and relentless sandstorm of an ancient desert city. Find the flying machine and escape before you all become permanent artifacts of the forbidden desert!",
         img: "./img/forbidden-desert.png",
         genre: "Strategy",
         favorite: false
@@ -321,7 +321,7 @@ const gamesList = [
         name: "Coup",
         playerCount: "2-6",
         playTime: 15,
-        description: "In Coup, you want to be the last player with influence in the game, with influence being represented by face-down character cards in your playing area. Each player starts the game with two coins and two influence - i.e., two face-down character cards; the fifteen card deck consists of three copies of five different characters, each with a unique set of powers. When you take one of the character actions - whether actively on your turn, or defensively in response to someone else's action - that character's action automatically succeeds unless an opponent challenges you. In this case, if you can't (or don't) reveal the appropriate character, you lose an influence, turning one of your characters face-up. Face-up characters cannot be used, and if both of your characters are face-up, you're out of the game.",
+        description: "In Coup, you want to be the last player with influence in the game, with influence being represented by face-down character cards, each with a unique ability. When you take one of the character actions, you can bluff as any character, and it automatically succeeds unless an opponent challenges you. If you lose both you're out of the game.",
         img: "./img/coup.png",
         genre: "Social Deduction",
         favorite: false
@@ -339,7 +339,7 @@ const gamesList = [
         name: "CONFIDENT?",
         playerCount: "3-99",
         playTime: 30,
-        description: "CONFIDENT? is a highly entertaining family party game where you answer questions like 'how many slices are there in a loaf of bread?'. But, instead of giving exact answers, you guess with a RANGE! You only need to get the right answer in your range to win points so everyone can have a go, but the smaller your range compared to everyone else, the more you score! Are you CONFIDENT enough to win?",
+        description: "CONFIDENT? is a trivia game where instead of giving exact answers, you guess with a RANGE! You only need to get the right answer in your range to win points so everyone can have a go, but the smaller your range compared to everyone else, the more you score! Are you CONFIDENT enough to win?",
         img: "./img/confident.png",
         genre: "Trivia",
         favorite: false
@@ -348,7 +348,7 @@ const gamesList = [
         name: "Betrayal at House on the Hill",
         playerCount: "3-6",
         playTime: 60,
-        description: "Betrayal at House on the Hill quickly builds suspense and excitement as players explore a haunted mansion of their own design, encountering spirits and frightening omens that foretell their fate. With an estimated one hour playing time, Betrayal at House on the Hill is ideal for parties, family gatherings or casual fun with friends. Betrayal at House on the Hill is a tile game that allows players to build their own haunted house room by room, tile by tile, creating a new thrilling game board every time. The game is designed for three to six people, each of whom plays one of six possible characters. Secretly, one of the characters betrays the rest of the party, and the innocent members of the party must defeat the traitor in their midst before it's too late! Betrayal at House on the Hill will appeal to any game player who enjoys a fun, suspenseful, and strategic game.",
+        description: "In Betrayal at House on the Hill, players explore a haunted mansion of their own design, encountering spirits and frightening omens that foretell their fate. Secretly, one of the characters betrays the rest of the party, and the innocent members of the party must defeat the traitor in their midst before it's too late!",
         img: "./img/betrayal.png",
         genre: "Exploration",
         favorite: false
@@ -640,7 +640,7 @@ $(".tag").click(function() {
     $(this).addClass("selected-tag");
 
     $.each(sortedArray, function() {
-        if (tag == this.genre && !this.wishlist) {
+        if (tag == this.genre && !this.wishlist && !this.favorite) {
             $(".search-container").append(
                 `<div class="game">
                 <div class="game-head">
@@ -648,6 +648,23 @@ $(".tag").click(function() {
                 </div>
                 <div class="game-body">
                 <div class="img-container"><img src="${this.img}"></div>
+                <ul>
+                <li>Player Count: ${this.playerCount}</li>
+                <li>Play Time: ${this.playTime} minutes</li>
+                <li>Genre: ${this.genre}</li>
+                </ul>
+                <p class="description">${this.description}</p>
+                </div>
+                </div>`)
+        }
+        if (tag == this.genre && !this.wishlist && this.favorite) {
+            $(".search-container").append(
+                `<div class="game">
+                <div class="game-head">
+                <h3>${this.name}</h3>
+                </div>
+                <div class="game-body">
+                <div class="img-container"><img class="favorite" src="${this.img}"></div>
                 <ul>
                 <li>Player Count: ${this.playerCount}</li>
                 <li>Play Time: ${this.playTime} minutes</li>

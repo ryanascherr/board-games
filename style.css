@@ -71,7 +71,7 @@ button {
 
 .navbar {
     display: flex;
-    background-color: #36fefd;
+    /* background-color: #36fefd; */
     border-bottom: 2px solid #1f3944;
 }
 
@@ -86,13 +86,14 @@ button {
 }
 
 .nav-item:hover {
+    cursor: pointer;
     background-color: #1f3944;
-    color: #36fefd;
+    color: white;
 }
 
 .selected {
     background-color: #1f3944;
-    color: #36fefd;
+    color: white;
 }
 
 .nav-dropdown-parent {
