@@ -1,7 +1,7 @@
 const gamesList = [
     {
         name: "Cockroach Poker",
-        playerCount: "3-4",
+        playerCount: "3-7",
         playTime: 20,
         description: "Cockroach Poker is a reverse set collection game that has nothing to do with poker - except that the game is all about bluffing, with cards that show cockroaches, rats and stink bugs. The goal is to force another player to collect 4 of any one type of critter.",
         img: "./img/cockroach-poker.png",
