@@ -486,6 +486,38 @@ const gamesList = [
         favorite: false,
         new: false,
         wishlist: true
+    },
+    {
+        name: "The Adventure Zone: Bureau of Balance",
+        playerCount: "2-5",
+        playTime: 75,
+        description: "In TAZ: Bureau of Balance, you and friends are adventurers charged with retrieving dangerous artifacts from nefarious villains. To succeed, you may have to outwit vile gerblins, armwrestle ogres, or endure the withering criticism of sarcastic specters. Can you work together and overcome all challenges before your health runs out? TAZ: Bureau of Balance is a cooperative storytelling game for 2-5 players. It uses a dynamically generated dungeon created by combining multiple decks of cards; as challenges are overcome, new challenges are revealed. The mechanics are easy to learn and players are encouraged to describe their heroic deeds. No experience is required, and any group of friends can have a hilarious adventure in about an hour!",
+        img: "./img/taz.png",
+        genre: "Card Game",
+        favorite: false,
+        new: false
+    },
+    {
+        name: "Inis",
+        playerCount: "2-4",
+        playTime: 75,
+        description: "Inis is a game deeply rooted in Celtic history and lore in which players win by being elected King of the Island (Inis). Players can try to achieve one of three different victory conditions. Over the course of the game, players also earn deeds, typically chanted by bards or engraved by master crafters, that reduce by one the magic total of six for any condition. While one victory condition is enough to claim the title of King, a game of experienced players usually has a tight balance of power, emphasizing the leadership of the capital of the island.",
+        img: "./img/inis.png",
+        genre: "Strategy",
+        favorite: false,
+        new: false,
+        wishlist: true
+    },
+    {
+        name: "Calico",
+        playerCount: "1-4",
+        playTime: 45,
+        description: "In Calico, players compete to sew the coziest quilt as they collect and place patches of different colors and patterns. Each quilt has a particular pattern that must be followed, and players are also trying to create color and pattern combinations that are not only aesthetically pleasing, but also able to attract the cuddliest cats! Turns are simple. Select a single patch tile from your hand and sew it into your quilt, then draw another patch into your hand from the three available. If you are able to create a color group, you may sew a button onto your quilt. If you are able to create a pattern combination that is attractive to any of the cats, it will come over and curl up on your quilt! At the end of the game, you score points for buttons, cats, and how well you were able to complete your unique quilt pattern.",
+        img: "./img/calico.png",
+        genre: "Strategy",
+        favorite: false,
+        new: false,
+        wishlist: true
     }
 ]
 
