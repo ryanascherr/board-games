@@ -516,8 +516,7 @@ const gamesList = [
         img: "./img/calico.png",
         genre: "Strategy",
         favorite: false,
-        new: false,
-        wishlist: true
+        new: true
     },
     {
         name: "Inhuman Conditions",
