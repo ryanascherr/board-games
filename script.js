@@ -518,6 +518,28 @@ const gamesList = [
         favorite: false,
         new: false,
         wishlist: true
+    },
+    {
+        name: "Inhuman Conditions",
+        playerCount: "2",
+        playTime: 5,
+        description: "Inhuman Conditions is a five-minute, two-player game of surreal interrogation and conversational judo, set in the heart of a chilling bureaucracy. Each game has one Investigator and one Suspect. Armed only with two stamps and a topic of conversation, the Investigator must figure out whether the Suspect is a Human or a Robot. Robots must answer the Investigator's questions without arousing suspicion, but are hampered by some specific malfunction in their ability to converse. They must be clever, guiding the conversation in subtle ways without getting caught. Humans may speak freely, but may find this freedom as much curse as gift. There are no right or wrong answers, only suspicious and innocuous ones, and one slip of the tongue could land Humans and Robots alike in the Bureau's Invasive Confirmation Unit. There, alongside Investigators who make improper determinations, they will await further testing ...",
+        img: "./img/inhuman.png",
+        genre: "Social Deduction",
+        favorite: false,
+        new: false,
+        wishlist: true
+    },
+    {
+        name: "Clank!",
+        playerCount: "2-4",
+        playTime: 45,
+        description: "Clank! is a deck-building game. Each player has their own deck, and building yours up is part of playing the game. You start each of your turns with five cards in your hand, and you'll play them all in any order you choose. Most cards will generate resources, of which there are three different kinds. Every time you acquire a new card, you put it face up in your discard pile. Whenever you need to draw a card and find your deck empty, you shuffle your discard pile and turn it face down to form a new deck. With each shuffle, your newest cards become part of a bigger and better deck! Each player starts with the same cards in their deck, but they'll acquire different cards during their turns. Because cards can do many different things, each player's deck (and strategy) will become more and more different as the game unfolds.",
+        img: "./img/clank.png",
+        genre: "Deck-Builder",
+        favorite: false,
+        new: false,
+        wishlist: true
     }
 ]
 
