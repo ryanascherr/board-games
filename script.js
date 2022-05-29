@@ -3,7 +3,7 @@ const gamesList = [
         name: "Cockroach Poker",
         playerCount: "3-7",
         playTime: 20,
-        description: "Cockroach Poker is a reverse set collection game that has nothing to do with poker - except that the game is all about bluffing, with cards that show cockroaches, rats and stink bugs. The goal is to force another player to collect 4 of any one type of critter.",
+        description: "Cockroach Poker is a reverse set collection game that is all about bluffing. Deceive the other players into thinking you are lying or telling the truth about what card you're giving them. Fool one player enough times, and they lose!",
         img: "./img/cockroach-poker.png",
         genre: "Social Deduction",
         favorite: false,
@@ -13,7 +13,7 @@ const gamesList = [
         name: "Take 5 (6 Nimmt)",
         playerCount: "3-7",
         playTime: 20,
-        description: "In 6 nimmt!, you want to score as few points as possible. Each turn, players simultaneously choose and reveal a card from their hand and then add the cards to rows. When the sixth card is placed in a row, the owner of that card claims the other five cards gains all the points on those cards.",
+        description: "In Take 5, players simultaneously play cards from their hand into a play area. Knowing when to play each card in your hand is key; play the wrong one and you might be collecting 5 cards and getting all of their points. The player with the least amount of points wins.",
         img: "./img/take-5.png",
         genre: "Card Game",
         favorite: false,
@@ -23,7 +23,7 @@ const gamesList = [
         name: "The Crew: Mission Deep Sea",
         playerCount: "2-5",
         playTime: 20,
-        description: "In the trick-taking card game The Crew: Mission Deep Sea, you and the other players work together to search for the lost continent of Mu. This new adventure takes your crew deep down into the abyss on a search for the fabled sunken land. How far you get depends entirely on how well you work together as a team. Card by card, trick by trick, your search party will discover the challenges that lie ahead and forge a path to Mu.",
+        description: "In the trick-taking card game The Crew: Mission Deep Sea, you and the other players work together to search for the lost continent of Mu. In each mission, players have to work together to complete its unique tasks, but players aren't allowed to talk!",
         img: "./img/the-crew.png",
         genre: "Trick-Taking Game",
         favorite: true
@@ -32,7 +32,7 @@ const gamesList = [
         name: "Skull",
         playerCount: "3-6",
         playTime: 20,
-        description: "Skull & Roses is the quintessence of bluffing, a game in which everything is played in the players' heads. Each player plays a face-down card, then each player in turn adds one more card - until someone feels safe enough to state that he can turn a number of cards face up and get only roses. Other players can then overbid him, saying they can turn even more cards face up. The highest bidder must then turn that number of cards face up, starting with his own. If he shows only roses, he wins; if he reveals a skull, he loses, placing one of his cards out of play. Two successful challenges wins the game. Skull & Roses is not a game of luck; it's a game of poker face and meeting eyes.",
+        description: "In the bluffing game Skull, each player plays a face-down card (a skull or rose), then each player in turn adds one more card - until someone feels safe enough to state that he can turn a number of cards face up and get only roses. If they can do it, they win the round. Win two rounds to win the game!",
         img: "./img/skull.png",
         genre: "Social Deduction",
         favorite: true
@@ -41,7 +41,7 @@ const gamesList = [
         name: "One Night Ultimate Werewolf",
         playerCount: "3-10",
         playTime: 10,
-        description: "One Night Ultimate Werewolf is a fast-paced game where everyone is dealt a secret role. Many of these roles have special abilities that will aid that player in gaining information.  In the course of only one night and the following morning, the players will determine who among them is a werewolf...hopefully.",
+        description: "One Night Ultimate Werewolf is a fast-paced game where everyone is dealt a secret role, some of which have special abilities that will aid that player in gaining information. In the course one night and the following morning, the players will determine who among them is a werewolf...hopefully.",
         img: "./img/one-night-ultimate-werewolf.png",
         genre: "Social Deduction",
         favorite: false
@@ -50,7 +50,7 @@ const gamesList = [
         name: "Codenames",
         playerCount: "2-8",
         playTime: 15,
-        description: "In Codenames, there will be 25 cards on the table with different words. Each team leader wants their team to guess a list of words, and they do so by giving clues about them. A team wins when they guess all of their words.",
+        description: "In Codenames, each team leader wants their team to guess a list of words from a selection of 25. They do so by giving clues about them - one word followed by the number of words the clue corresponds to.A team wins when they guess all of their leader's words.",
         img: "./img/codenames.png",
         genre: "Card Game",
         favorite: false
@@ -59,7 +59,7 @@ const gamesList = [
         name: "Oath",
         playerCount: "1-6",
         playTime: 120,
-        description: "In Oath, one to six players guide the course of history in an ancient land. Players might take the role of agents bolstering the old order or scheme to bring the kingdom to ruin. The consequences of one game will ripple through those that follow, changing what resources and actions future players may have at their disposal and even altering the game's core victory condition.",
+        description: "In Oath, players guide the course of history in an ancient land. The consequences of one game will ripple through those that follow, changing what resources and actions future players may have at their disposal and even altering the game's core victory condition.",
         img: "./img/oath.png",
         genre: "Political",
         favorite: true
@@ -68,7 +68,7 @@ const gamesList = [
         name: "Long Shot: The Dice Game",
         playerCount: "1-8",
         playTime: 25,
-        description: "In Long Shot: The Dice Game, you and up to seven other players will strategize and push your luck as the action unfolds in a tense race of eight horses. During the game you buy horses, place bets, influence race movement, and utilize special abilities. The roll of the dice determines which horses move and the options available each turn, so be ready to adapt your plans. Once three horses cross the finish line, earnings are totaled. While there are many ways to earn money during a horse race, only the player that makes the most money will be declared the winner. Will you play it safe, or risk it big on a long shot?",
+        description: "In Long Shot: The Dice Game, players will strategize and push their luck as the action unfolds in a tense race of eight horses. During the game you buy horses, place bets, influence race movement, and utilize special abilities. Will you play it safe, or risk it big on a long shot?",
         img: "./img/long-shot.png",
         genre: "Gambling",
         favorite: false
@@ -77,7 +77,7 @@ const gamesList = [
         name: "The Quacks of Quedlinburg",
         playerCount: "2-4",
         playTime: 45,
-        description: "In The Quacks of Quedlinburg, players are charlatans — or quack doctors — each making their own secret brew by adding ingredients one at a time. Take care with what you add, though, for a pinch too much of this or that will spoil the whole mixture! Each player has their own bag of ingredient chips. During each round, they simultaneously draw chips from their bags and add them to their pots. The higher the face value of the drawn chip, the further it is placed in the pot's swirling pattern, increasing how much the potion will be worth. Push your luck as far as you can, but if you add too many cherry bombs, your pot will explode!",
+        description: "In The Quacks of Quedlinburg, players are making their own secret brew. Each player draws ingredient chips from their bags and add them to their pots. The more chips you place, the better the pot. Push your luck as far as you can, but if you add too many cherry bombs, your pot will explode!",
         img: "./img/quacks.png",
         genre: "Push Your Luck",
         favorite: true
@@ -86,7 +86,7 @@ const gamesList = [
         name: "Hive",
         playerCount: "2",
         playTime: 20,
-        description: "Hive is a highly addictive strategic game for two players that is not restricted by a board and can be played anywhere on any flat surface. Hive is made up of twenty two pieces, eleven black and eleven white, resembling a variety of creatures each with a unique way of moving. With no setting up to do, the game begins when the first piece is placed down. As the subsequent pieces are placed this forms a pattern that becomes the playing surface (the pieces themselves become the board). Unlike other such games, the pieces are never eliminated and not all have to be played. The object of the game is to totally surround your opponent's queen, while at the same time trying to block your opponent from doing likewise to your queen. The player to totally surround his opponent's queen wins the game.",
+        description: "Hive is a two-player chess-like strategy game. Players will place their bug tiles in play, creating the shared playing space. Each different bug tile has a unique way of moving around the board. The player to totally surround his opponent's queen wins the game.",
         img: "./img/hive.png",
         genre: "Strategy",
         favorite: true
@@ -95,7 +95,7 @@ const gamesList = [
         name: "A Little Wordy",
         playerCount: "2",
         playTime: 10,
-        description: "Each player given a pile of letters and must rearrange your letters to form a word that their opponent won't easily guess. The goal is to examine your opponent's tiles and try to figure out their word. You do this with Clue Cards. You win by using as FEW of these clue cards as possible to figure out what word your opponent wrote down.",
+        description: "In this two-player word game, each player is given a pile of letters and must rearrange them to form a word that their opponent won't easily guess. Use a variety of clue cards to figure out your opponent's word before they figure out yours.",
         img: "./img/wordy.png",
         genre: "Word Game",
         favorite: false
@@ -104,7 +104,7 @@ const gamesList = [
         name: "SHOBU",
         playerCount: "2",
         playTime: 15-30,
-        description: "SHOBU is a beautifully crafted abstract strategy game for 2 players. The game features 4 square wood boards (2 of each color) and 16 natural river stones for each player, in two colors, with a rope dividing the play area in half. Your turn is in two parts. First, a player may move one of their stones up to two spaces in any direction, including diagonally, in what is called a passive (or set up) move. Second, they take a more aggressive move, which must be the same direction and number of spaces as the first move. It is this second move that allows you to push stones across the board - or off the board's edge. Remove all four of your opponent's stones from just one of the four boards to win.",
+        description: "SHOBU is a strategy game for two players. Each player controls 16 colored stones across four boards. During a turn, a player can move one of their stones, then must move a stone on a different board in the same way. The second move can push opposing stones off the board. The first to remove all of their opponent's stones from any board is the winner.",
         img: "./img/shobu.png",
         genre: "Strategy",
         favorite: false
