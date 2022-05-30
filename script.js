@@ -104,7 +104,7 @@ const gamesList = [
         name: "SHOBU",
         playerCount: "2",
         playTime: 15-30,
-        description: "SHOBU is a strategy game for two players. Each player controls 16 colored stones across four boards. During a turn, a player can move one of their stones, then must move a stone on a different board in the same way. The second move can push opposing stones off the board. The first to remove all of their opponent's stones from any board is the winner.",
+        description: "In this two-player strategy game, each player controls 16 stones across four boards. During a turn, a player can move one of their stones, then must move a stone on a different board in the same way. The second move can push opposing stones off the board. The first to remove all of their opponent's stones from any board is the winner.",
         img: "./img/shobu.png",
         genre: "Strategy",
         favorite: false
@@ -113,7 +113,7 @@ const gamesList = [
         name: "Klask",
         playerCount: "2",
         playTime: 10,
-        description: "The KLASK game board is shaped like a ball field with two deep holes functioning as goals in each end of the field. In the middle of the field, three white magnetic pieces serve as 'obstacles' - do NOT attract them to your own gaming piece! Your gaming piece is a black magnet. You control it by holding a large magnet under the board. This magnet is connected to a small magnet placed on the field. The purpose of the game is to push the small, red ball around on the field with your magnet/gaming piece, shoot the ball past the obstacles and your opponent and into the goal hole (Klask).",
+        description: "Klask is a two-player air-hockey-like dexterity game. Each player controls a magnetic 'striker' which they use to bounce the game ball into their opponent's goal. Players can also score if their opponent loses control of their striker, attracks two of the three magnets on the board, or lands in their striker in their own goal.",
         img: "./img/klask.png",
         genre: "Dexterity",
         favorite: true,
@@ -123,7 +123,7 @@ const gamesList = [
         name: "Trails",
         playerCount: "2-4",
         playTime: 30,
-        description: "In TRAILS, players hike back and forth along the trail, collecting rocks, acorns and leaves; taking pictures; and encountering wildlife to gain bonuses. At trailhead and trail end, you can turn in resources to earn badges, after which you start back in the other direction. As players visit the trail end, the sun sets over the trail. As night falls, trail sites grant more powerful actions, but they won't last forever. When the sun leaves the trail, the last round of play takes place, then the player with the most points from collected badges, photos taken, and bird sightings wins.",
+        description: "In TRAILS, players hike back and forth along the trail, collecting rocks, acorns and leaves; taking pictures; and encountering wildlife to gain bonuses. At trailhead and trail end, you can turn in resources to earn badges, which give you points. The player with the most points from collected badges, photos taken, and bird sightings wins.",
         img: "./img/trails.png",
         genre: "Resource Management",
         favorite: false
@@ -132,7 +132,7 @@ const gamesList = [
         name: "Arboretum",
         playerCount: "2-4",
         playTime: 30,
-        description: "Players try to have the most points at the end of the game by creating beautiful garden paths for their visitors with their tree cards. Each turn, a player draws two cards, lays a card on the table as part of her arboretum, then discards a card to her personal discard pile.",
+        description: "Players create garden paths for their visitors with their tree cards. Each turn, players play and discard a card, and your discarded cards can be taken by your opponents. The player with the most points from their garden paths win the game.",
         img: "./img/arboretum.png",
         genre: "Card Game",
         favorite: true
@@ -141,7 +141,7 @@ const gamesList = [
         name: "The Fox in the Forest",
         playerCount: 2,
         playTime: "30",
-        description: "The Fox in the Forest is a trick-taking game for two players. Aside from the normal ranked- and suited-cards used to win tricks, fairy characters such as the Fox and the Witch have special abilities that let you change the trump suit, lead even after you lose a trick, and more. You score points by winning more tricks than your opponent, but don't get greedy! Win too many tricks, and you will fall like the villain in so many fairy tales...",
+        description: "The Fox in the Forest is a trick-taking game for two players, where some cards have special abilities. You score points by winning more tricks than your opponent, but don't get greedy! Win too many tricks, and you will fall like the villain in so many fairy tales...",
         img: "./img/fox-in-the-forest.png",
         genre: "Trick-Taking Game",
         favorite: false
@@ -150,7 +150,7 @@ const gamesList = [
         name: "Hounded",
         playerCount: 2,
         playTime: "20",
-        description: "In Hounded, players will either be the cunning fox, trying to elude capture, or the determined hunter, trying to hunt down the fox. In the game. each player moves their pawns and turns over tiles as they do, sometimes triggering effects and sometimes not. While the fox character is alone, the hunter has a team of hounds to help him hunt the fox. All the hunter has to do to win is either corner the fox with his dogs or force the fox to end his turn next to the hunter himself. For the fox to win, it has to run out the clock, which is done by either finding the three timepiece tiles or flipping over 43 of the 49 tiles. Once time runs out, the hunter has to retire for the day and the fox escapes!",
+        description: "In Hounded, players will either be the cunning fox, trying to elude capture, or the determined hunting party, trying to hunt down the fox. Each player moves their pawns and turns over tiles as they do, sometimes triggering effects. Which side will win?",
         img: "./img/hounded.png",
         genre: "Strategy",
         favorite: false
@@ -159,7 +159,7 @@ const gamesList = [
         name: "Secret Hitler",
         playerCount: "5-10",
         playTime: 45,
-        description: "Secret Hitler is a dramatic game of political intrigue and betrayal set in 1930s Germany. Each player is randomly and secretly assigned to be a liberal or a fascist, and one player is Secret Hitler. The fascists coordinate to sow distrust and install their cold-blooded leader; the liberals must find and stop the Secret Hitler before it's too late. The liberal team always has a majority. Each round, players elect a President and a Chancellor who will work together to enact a law from a random deck. If the government passes a fascist law, players must try to figure out if they were betrayed or simply unlucky. Secret Hitler also features government powers that come into play as fascism advances. The fascists will use those powers to create chaos unless liberals can pull the nation back from the brink of war. The objective of the liberal team is to pass five liberal policies or assassinate Secret Hitler. The objective of the fascist team is to pass six fascist policies or elect Secret Hitler chancellor after three fascist policies have passed.",
+        description: "Secret Hitler is a dramatic game of political intrigue and betrayal set in 1930s Germany. Each player is randomly and secretly assigned to be a liberal or a fascist, and one player is Secret Hitler. The fascists coordinate to sow distrust and install their cold-blooded leader; the liberals must find and stop the Secret Hitler before it's too late.",
         img: "./img/secret-hitler.png",
         genre: "Social Deduction",
         favorite: true
@@ -177,7 +177,7 @@ const gamesList = [
         name: "Wavelength",
         playerCount: "2-12",
         playTime: 35,
-        description: "Wavelength is a social guessing game in which two teams compete to read each other's minds. Teams take turns rotating a dial to where they think a hidden bullseye is located on a spectrum. One of the players on your team — the Psychic — knows exactly where the bullseye is, and draws a card with a pair of binaries on it (such as: Job - Career, Rough - Smooth, Fantasy - Sci-Fi, Sad Song - Happy Song, etc). The Psychic must then provide a clue that is *conceptually* where the bullseye is located between those two binaries.",
+        description: "Wavelength is a social guessing game in which two teams compete to read each other's minds. Teams take turns rotating a dial to where they think a hidden bullseye is located on a spectrum. One of the players on your team — the Psychic — knows exactly where the bullseye is, and gives a clue to get their team to guess.",
         img: "./img/wavelength.png",
         genre: "Party Game",
         favorite: false
@@ -186,7 +186,7 @@ const gamesList = [
         name: "Dungeon Mayhem",
         playerCount: "2-6",
         playTime: 10,
-        description: "In Dungeons & Dragons card game Dungeon Mayhem, you win by being the last adventurer standing. Play as one of four characters, battling it out in a dungeon full of treasure! You win if you're the last character alive.",
+        description: "In Dungeons & Dragons card game Dungeon Mayhem, you win by being the last adventurer standing. Play as one of twelve characters, battling it out in a dungeon full of treasure! You win if you're the last character alive.",
         img: "./img/dungeon-mayhem.png",
         genre: "Card Game",
         favorite: false
@@ -195,7 +195,7 @@ const gamesList = [
         name: "Disney Villainous",
         playerCount: "2-6",
         playTime: 50,
-        description: "In Villainous, each player takes control of one of six Disney characters. On a turn, the active player takes one or more of the actions visible on that space (often by playing cards from their hand). Cards are allies, items, effects, conditions, and curses. You need to use your cards to fulfill your unique win condition.",
+        description: "In Villainous, each player takes control of one of six Disney villains. Each turn, players take one or more actions visible, often by playing cards from their hand. Cards are allies, items, effects, conditions, and curses. You need to use your cards to fulfill your unique win condition.",
         img: "./img/villainous.png",
         genre: "Card Game",
         favorite: false
@@ -539,6 +539,16 @@ const gamesList = [
         favorite: false,
         new: false,
         wishlist: true
+    },
+    {
+        name: "The Fuzzies",
+        playerCount: "2-4",
+        playTime: 10,
+        description: "The Fuzzies is a game about creating gravity-defying towers out of fuzzy little balls. Draw a card a remove that color of fuzzy using either tweezers or your fingers but you can not get out of your seat. Stick it anywhere higher on the tower. If you are successful then the next player goes but if any balls drop, you must draw cards equal to the number of balls dropped and do the challenge on your next turn (e.g. remove a Fuzzy while covering your eye) The game ends when someone oafishly knocks over the tower. That player is the loser, everyone else wins!",
+        img: "./img/fuzzies.png",
+        genre: "Dexterity",
+        favorite: false,
+        new: true
     }
 ]
 
