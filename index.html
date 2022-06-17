@@ -10,17 +10,46 @@
 <body>
     <a href="#" class="back-to-top"><img src="./img/back-to-top.png" alt=""></a>
     <header>
-        <h1 class="banner">Ryan's Board Games</h1>
+        <!-- <h1 class="banner">Ryan's Board Games</h1> -->
+        <h1 class="banner">Bachelor Party Board Games</h1>
         <nav class="navbar">
-            <button class="nav-item recent">Recent</button>
+            <!-- <button class="nav-item recent">Recent</button>
             <button class="nav-item favorites">Favorites</button>
             <button class="nav-item all">All</button>
             <button class="nav-item wishlist">Wishlist</button>
-            <button class="nav-item search">Search</button>
+            <button class="nav-item search">Search</button> -->
         </nav>
     </header>
     <main>
-        <div class="recent-parent-container parent-container">
+        <div class="bachelor-parent-container parent-container">
+            <h2 id="bachelor">~ All Games ~</h2>
+            <div class="label-container">
+                <label for="game-choice">Select a game:</label>
+                <input list="games-list" id="game-choice" name="game-choice"/>
+                <div class="show-all-btn-container"></div>
+                <datalist id="games-list">
+                    <option value="Anomia">
+                    <option value="Blood on the Clocktower">
+                    <option value="Ca$h n' Guns">
+                    <option value="Cockroach Poker">
+                    <option value="Coup">
+                    <option value="Doodle Dash">
+                    <option value="Fuse">
+                    <option value="Klask">
+                    <option value="Monikers">
+                    <option value="No Thanks!">
+                    <option value="One Night Ultimate Werewolf">
+                    <option value="Secret Hitler">
+                    <option value="Skull">
+                    <option value="Take 5 (6 Nimmt)">
+                    <option value="The Crew: Mission Deep Sea">
+                    <option value="The Mind">
+                    <option value="Wavelength">
+                    <option value="Werewords">
+                </datalist>
+            </div>
+            <div class="bachelor-container"></div>
+        <!-- <div class="recent-parent-container parent-container">
             <h2 id="recent">~ Recently Added ~</h2>
             <div class="recent-container"></div>
         </div>
@@ -61,7 +90,7 @@
                 <div class="tag" data-tag="Word Game">Word Game</div>
             </div>
             <div class="search-container"></div>
-        </div>
+        </div> -->
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="./script.js"></script>

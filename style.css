@@ -63,6 +63,13 @@ button {
     transition: .25s all;
 }
 
+.label-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .section-title:hover {
     cursor: pointer;
     background-color: #1f3944;

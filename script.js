@@ -7,7 +7,8 @@ const gamesList = [
         img: "./img/cockroach-poker.png",
         genre: "Social Deduction",
         favorite: false,
-        new: true
+        new: true,
+        bachelor: true
     },
     {
         name: "Take 5 (6 Nimmt)",
@@ -17,7 +18,8 @@ const gamesList = [
         img: "./img/take-5.png",
         genre: "Card Game",
         favorite: false,
-        new: true
+        new: true,
+        bachelor: true
     },
     {
         name: "The Crew: Mission Deep Sea",
@@ -26,7 +28,8 @@ const gamesList = [
         description: "In the trick-taking card game The Crew: Mission Deep Sea, you and the other players work together to search for the lost continent of Mu. In each mission, players have to work together to complete its unique tasks, but players aren't allowed to talk!",
         img: "./img/the-crew.png",
         genre: "Trick-Taking Game",
-        favorite: true
+        favorite: true,
+        bachelor: true
     },
     {
         name: "Skull",
@@ -35,7 +38,8 @@ const gamesList = [
         description: "In the bluffing game Skull, each player plays a face-down card (a skull or rose), then each player in turn adds one more card - until someone feels safe enough to state that he can turn a number of cards face up and get only roses. If they can do it, they win the round. Win two rounds to win the game!",
         img: "./img/skull.png",
         genre: "Social Deduction",
-        favorite: true
+        favorite: true,
+        bachelor: true
     },
     {
         name: "One Night Ultimate Werewolf",
@@ -44,7 +48,8 @@ const gamesList = [
         description: "One Night Ultimate Werewolf is a fast-paced game where everyone is dealt a secret role, some of which have special abilities that will aid that player in gaining information. In the course one night and the following morning, the players will determine who among them is a werewolf...hopefully.",
         img: "./img/one-night-ultimate-werewolf.png",
         genre: "Social Deduction",
-        favorite: false
+        favorite: false,
+        bachelor: true
     },
     {
         name: "Codenames",
@@ -117,7 +122,8 @@ const gamesList = [
         img: "./img/klask.png",
         genre: "Dexterity",
         favorite: true,
-        new: true
+        new: true,
+        bachelor: true
     },
     {
         name: "Trails",
@@ -162,7 +168,8 @@ const gamesList = [
         description: "Secret Hitler is a dramatic game of political intrigue and betrayal set in 1930s Germany. Each player is randomly and secretly assigned to be a liberal or a fascist, and one player is Secret Hitler. The fascists coordinate to sow distrust and install their cold-blooded leader; the liberals must find and stop the Secret Hitler before it's too late.",
         img: "./img/secret-hitler.png",
         genre: "Social Deduction",
-        favorite: true
+        favorite: true,
+        bachelor: true
     },
     {
         name: "Ca$h 'n Guns",
@@ -171,7 +178,8 @@ const gamesList = [
         description: "In an abandoned warehouse a gangster band is splitting its loot, but they can't agree on the split! It's time to let the guns talk and soon everyone is aiming at everyone. The richest surviving gangster wins the game! The goal is to have more money than anyone else after eight rounds while still being alive.",
         img: "./img/cash-n-guns.png",
         genre: "Party Game",
-        favorite: false
+        favorite: false,
+        bachelor: true
     },
     {
         name: "Wavelength",
@@ -180,7 +188,8 @@ const gamesList = [
         description: "Wavelength is a social guessing game in which two teams compete to read each other's minds. Teams take turns rotating a dial to where they think a hidden bullseye is located on a spectrum. One of the players on your team — the Psychic — knows exactly where the bullseye is, and gives a clue to get their team to guess.",
         img: "./img/wavelength.png",
         genre: "Party Game",
-        favorite: false
+        favorite: false,
+        bachelor: true
     },
     {
         name: "Dungeon Mayhem",
@@ -216,7 +225,8 @@ const gamesList = [
         description: "In Werewords, players guess a word by asking 'yes' or 'no' questions. Figure out the magic word before time is up, and you win! However, one of the players is secretly a werewolf who is not only working against you, but also knows the magic word. If you don't guess the word in time, you can still win by identifying the werewolf! To help you out, one player is the Seer, who knows the word, but has to be careful while helping you. If you guess the word, the werewolf can pull out a win by identifying the Seer!",
         img: "./img/werewords.png",
         genre: "Social Deduction",
-        favorite: false
+        favorite: false,
+        bachelor: true
     },
     {
         name: "Silver & Gold",
@@ -324,7 +334,8 @@ const gamesList = [
         description: "In Coup, you want to be the last player with influence in the game, with influence being represented by face-down character cards, each with a unique ability. When you take one of the character actions, you can bluff as any character, and it automatically succeeds unless an opponent challenges you. If you lose both you're out of the game.",
         img: "./img/coup.png",
         genre: "Social Deduction",
-        favorite: false
+        favorite: false,
+        bachelor: true
     },
     {
         name: "Monikers",
@@ -333,7 +344,8 @@ const gamesList = [
         description: "Monikers is a party game based on the public domain game Celebrity, where players take turns attempting to get their teammates to guess names by describing or imitating well-known people. In the first round, clue givers can say anything they want, except for the name itself. For the second round, clue givers can only say one word. And in the final round, clue givers can’t say anything at all: they can only use gestures and charades.",
         img: "./img/monikers.png",
         genre: "Party Game",
-        favorite: true
+        favorite: true,
+        bachelor: true
     },
     {
         name: "CONFIDENT?",
@@ -369,7 +381,8 @@ const gamesList = [
         description: "FUSE is a real-time co-operative game that employs 25 dice and 65 cards. Each game is set to a ten-minute timer, and players must work together in that ten minutes to defuse all of the bombs. Each bomb is represented by a card which needs a certain combination of dice in order to defuse it. A player will draw a number of dice equal to the number of players out of a bag and roll them. Players must then decide who will get which dice, but each player must take one and only one. It's a simple task: maximize the potential of your dice among all of the players. The problem is that you have only ten minutes, and there are more than twenty bombs on your ship. You don't have time to think through every option. You barely have time to yell at Grandma as she reaches for that red die you need. This game will self-destruct in ten minutes...",
         img: "./img/fuse.png",
         genre: "Dexterity",
-        favorite: false
+        favorite: false,
+        bachelor: true
     },
     {
         name: "One Deck Dungeon",
@@ -396,7 +409,8 @@ const gamesList = [
         description: "The Mind is more than just a game. It's an experiment, a journey, a team experience in which you can't exchange information, yet will become one to defeat all the levels of the game. In more detail, the deck contains cards numbered 1-100, and during the game you try to complete 12, 10, or 8 levels of play with 2, 3, or 4 players. In a level, each player receives a hand of cards equal to the number of the level: one card in level 1, two cards in level 2, etc. Collectively you must play these cards into the center of the table on a single discard pile in ascending order but you cannot communicate with one another in any way as to which cards you hold. You simply stare into one another's eyes, and when you feel the time is right, you play your lowest card. If no one holds a card lower than what you played, great, the game continues! If someone did, all players discard face up all cards lower than what you played, and you lose one life.",
         img: "./img/the-mind.png",
         genre: "Card Game",
-        favorite: false
+        favorite: false,
+        bachelor: true
     },
     {
         name: "The Keeyp",
@@ -432,7 +446,8 @@ const gamesList = [
         description: "Anomia plays off the fact that our minds are positively brimming with all sorts of random information: things to eat, pop songs, websites, etc... Sure, under normal circumstances, it's easy to give an example of a frozen food or a dog breed, but you'll find that your brain works a little differently under pressure!",
         img: "./img/anomia.png",
         genre: "Party Game",
-        favorite: false
+        favorite: false,
+        bachelor: true
     },
     {
         name: "No Thanks!",
@@ -442,7 +457,8 @@ const gamesList = [
         img: "./img/no-thanks.png",
         genre: "Card Game",
         favorite: false,
-        new: true
+        new: true,
+        bachelor: true
     },
     {
         name: "Doodle Dash",
@@ -452,7 +468,8 @@ const gamesList = [
         img: "./img/doodle-dash.png",
         genre: "Party Game",
         favorite: false,
-        new: true
+        new: true,
+        bachelor: true
     },
     {
         name: "Blood on the Clocktower",
@@ -461,9 +478,10 @@ const gamesList = [
         description: "Blood on the Clocktower is a bluffing game enjoyed by 5 to 20 players on opposing teams of Good and Evil, overseen by a Storyteller player who conducts the action and makes crucial decisions. The goal of the game is to successfully deduce and execute the demons before they outnumber the townfolk.",
         img: "./img/clocktower.png",
         genre: "Social Deduction",
-        favorite: false,
+        favorite: true,
         new: false,
-        wishlist: true
+        wishlist: true,
+        bachelor: true
     },
     {
         name: "Root",
@@ -552,8 +570,111 @@ const gamesList = [
     }
 ]
 
+$('#game-choice').change(function() {
+    let name = $("#game-choice").val();
+    $.each(sortedArray, function() {
+        if (this.name != name) return;
+        if (this.name == name) {
+            $(".bachelor-container").empty();
+            $(".show-all-btn-container").append(`<button class="show-all-btn">Show All Games</button>`);
+            $(".bachelor-container").append(
+                `<div class="game">
+                <div class="game-head">
+                <h3>${this.name}</h3>
+                </div>
+                <div class="game-body">
+                <div class="img-container"><img src="${this.img}"></div>
+                <ul>
+                <li>Player Count: ${this.playerCount}</li>
+                <li>Play Time: ${this.playTime} minutes</li>
+                <li>Genre: ${this.genre}</li>
+                </ul>
+                <p class="description">${this.description}</p>
+                </div>
+                </div>`);
+        }
+    });
+});
+
+$(".show-all-btn-container").click(function() {
+    console.log("yay");
+    $(".bachelor-container").empty();
+    $(".show-all-btn-container").empty();
+    $.each(sortedArray, function() {
+        if (this.bachelor && !this.favorite) {
+            $(".bachelor-container").append(
+                `<div class="game">
+                <div class="game-head">
+                <h3>${this.name}</h3>
+                </div>
+                <div class="game-body">
+                <div class="img-container"><img src="${this.img}"></div>
+                <ul>
+                <li>Player Count: ${this.playerCount}</li>
+                <li>Play Time: ${this.playTime} minutes</li>
+                <li>Genre: ${this.genre}</li>
+                </ul>
+                <p class="description">${this.description}</p>
+                </div>
+                </div>`)
+        } else if (this.bachelor && this.favorite) {
+            $(".bachelor-container").append(
+                `<div class="game">
+                <div class="game-head">
+                <h3>${this.name}</h3>
+                </div>
+                <div class="game-body">
+                <div class="img-container"><img class="favorite" src="${this.img}"></div>
+                <ul>
+                <li>Player Count: ${this.playerCount}</li>
+                <li>Play Time: ${this.playTime} minutes</li>
+                <li>Genre: ${this.genre}</li>
+                </ul>
+                <p class="description">${this.description}</p>
+                </div>
+                </div>`)
+        }
+    });
+})
+
 let sortedArray= gamesList.sort(function(a, b) {
     return a.name.localeCompare(b.name);
+});
+
+$.each(sortedArray, function() {
+    if (this.bachelor && !this.favorite) {
+        $(".bachelor-container").append(
+            `<div class="game">
+            <div class="game-head">
+            <h3>${this.name}</h3>
+            </div>
+            <div class="game-body">
+            <div class="img-container"><img src="${this.img}"></div>
+            <ul>
+            <li>Player Count: ${this.playerCount}</li>
+            <li>Play Time: ${this.playTime} minutes</li>
+            <li>Genre: ${this.genre}</li>
+            </ul>
+            <p class="description">${this.description}</p>
+            </div>
+            </div>`)
+    } else if (this.bachelor && this.favorite) {
+        $(".bachelor-container").append(
+            `<div class="game">
+            <div class="game-head">
+            <h3>${this.name}</h3>
+            </div>
+            <div class="game-body">
+            <div class="img-container"><img class="favorite" src="${this.img}"></div>
+            <ul>
+            <li>Player Count: ${this.playerCount}</li>
+            <li>Play Time: ${this.playTime} minutes</li>
+            <li>Genre: ${this.genre}</li>
+            </ul>
+            <p class="description">${this.description}</p>
+            </div>
+            </div>`)
+    }
 });
 
 $.each(sortedArray, function() {
