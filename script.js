@@ -570,6 +570,10 @@ const gamesList = [
     }
 ]
 
+$("input").click(function(event) {
+    event.preventDefault();
+})
+
 $('#game-choice').change(function() {
     let name = $("#game-choice").val();
     $("#game-choice").val("");
