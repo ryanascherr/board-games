@@ -1,9 +1,18 @@
 * {
     box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 body {
     margin: 0;
+}
+
+input {
+    margin-bottom: 15px;
+}
+
+input:hover {
+    cursor: pointer;
 }
 
 main {
@@ -36,6 +45,11 @@ h2 {
     margin: 25px 0 15px;
 }
 
+h4 {
+    margin: 20px 0 10px;
+    color: #1f3944;
+}
+
 p {
     margin: 0;
 }
@@ -54,6 +68,23 @@ button {
 
 .hidden {
     display: none;
+}
+
+.show-all-btn {
+    background-color: white;
+    color: #1f3944;
+    border: 2px solid #1f3944;
+    padding: 7px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: all .25s;
+    margin-bottom: 5px;
+}
+
+.show-all-btn:hover {
+    color: white;
+    background-color: #1f3944;
+    cursor: pointer;
 }
 
 .section-title {

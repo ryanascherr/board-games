@@ -572,10 +572,12 @@ const gamesList = [
 
 $('#game-choice').change(function() {
     let name = $("#game-choice").val();
+    $("#game-choice").val("");
     $.each(sortedArray, function() {
         if (this.name != name) return;
         if (this.name == name) {
             $(".bachelor-container").empty();
+            $(".show-all-btn-container").empty();
             $(".show-all-btn-container").append(`<button class="show-all-btn">Show All Games</button>`);
             $(".bachelor-container").append(
                 `<div class="game">
@@ -597,7 +599,6 @@ $('#game-choice').change(function() {
 });
 
 $(".show-all-btn-container").click(function() {
-    console.log("yay");
     $(".bachelor-container").empty();
     $(".show-all-btn-container").empty();
     $.each(sortedArray, function() {
@@ -677,119 +678,119 @@ $.each(sortedArray, function() {
     }
 });
 
-$.each(sortedArray, function() {
-    if (this.favorite) {
-        $(".favorites-container").append(
-        `<div class="game">
-        <div class="game-head">
-        <h3>${this.name}</h3>
-        </div>
-        <div class="game-body">
-        <div class="img-container"><img class="favorite" src="${this.img}"></div>
-        <ul>
-        <li>Player Count: ${this.playerCount}</li>
-        <li>Play Time: ${this.playTime} minutes</li>
-        <li>Genre: ${this.genre}</li>
-        </ul>
-        <p class="description">${this.description}</p>
-        </div>
-        </div>`)
-    }
-});
+// $.each(sortedArray, function() {
+//     if (this.favorite) {
+//         $(".favorites-container").append(
+//         `<div class="game">
+//         <div class="game-head">
+//         <h3>${this.name}</h3>
+//         </div>
+//         <div class="game-body">
+//         <div class="img-container"><img class="favorite" src="${this.img}"></div>
+//         <ul>
+//         <li>Player Count: ${this.playerCount}</li>
+//         <li>Play Time: ${this.playTime} minutes</li>
+//         <li>Genre: ${this.genre}</li>
+//         </ul>
+//         <p class="description">${this.description}</p>
+//         </div>
+//         </div>`)
+//     }
+// });
 
-$.each(sortedArray, function() {
-    if (!this.wishlist && !this.favorite) {
-        $(".all-container").append(
-            `<div class="game">
-            <div class="game-head">
-            <h3>${this.name}</h3>
-            </div>
-            <div class="game-body">
-            <div class="img-container"><img src="${this.img}"></div>
-            <ul>
-            <li>Player Count: ${this.playerCount}</li>
-            <li>Play Time: ${this.playTime} minutes</li>
-            <li>Genre: ${this.genre}</li>
-            </ul>
-            <p class="description">${this.description}</p>
-            </div>
-            </div>`)
-    }
-    if (!this.wishlist && this.favorite) {
-        $(".all-container").append(
-            `<div class="game">
-            <div class="game-head">
-            <h3>${this.name}</h3>
-            </div>
-            <div class="game-body">
-            <div class="img-container"><img class="favorite" src="${this.img}"></div>
-            <ul>
-            <li>Player Count: ${this.playerCount}</li>
-            <li>Play Time: ${this.playTime} minutes</li>
-            <li>Genre: ${this.genre}</li>
-            </ul>
-            <p class="description">${this.description}</p>
-            </div>
-            </div>`)
-    }
-});
+// $.each(sortedArray, function() {
+//     if (!this.wishlist && !this.favorite) {
+//         $(".all-container").append(
+//             `<div class="game">
+//             <div class="game-head">
+//             <h3>${this.name}</h3>
+//             </div>
+//             <div class="game-body">
+//             <div class="img-container"><img src="${this.img}"></div>
+//             <ul>
+//             <li>Player Count: ${this.playerCount}</li>
+//             <li>Play Time: ${this.playTime} minutes</li>
+//             <li>Genre: ${this.genre}</li>
+//             </ul>
+//             <p class="description">${this.description}</p>
+//             </div>
+//             </div>`)
+//     }
+//     if (!this.wishlist && this.favorite) {
+//         $(".all-container").append(
+//             `<div class="game">
+//             <div class="game-head">
+//             <h3>${this.name}</h3>
+//             </div>
+//             <div class="game-body">
+//             <div class="img-container"><img class="favorite" src="${this.img}"></div>
+//             <ul>
+//             <li>Player Count: ${this.playerCount}</li>
+//             <li>Play Time: ${this.playTime} minutes</li>
+//             <li>Genre: ${this.genre}</li>
+//             </ul>
+//             <p class="description">${this.description}</p>
+//             </div>
+//             </div>`)
+//     }
+// });
 
-$.each(sortedArray, function() {
-    if (this.new && !this.favorite) {
-        $(".recent-container").append(
-        `<div class="game">
-        <div class="game-head">
-        <h3>${this.name}</h3>
-        </div>
-        <div class="game-body">
-        <div class="img-container"><img src="${this.img}"></div>
-        <ul>
-        <li>Player Count: ${this.playerCount}</li>
-        <li>Play Time: ${this.playTime} minutes</li>
-        <li>Genre: ${this.genre}</li>
-        </ul>
-        <p class="description">${this.description}</p>
-        </div>
-        </div>`)
-    }
-    if (this.new && this.favorite) {
-        $(".recent-container").append(
-            `<div class="game">
-            <div class="game-head">
-            <h3>${this.name}</h3>
-            </div>
-            <div class="game-body">
-            <div class="img-container"><img class="favorite" src="${this.img}"></div>
-            <ul>
-            <li>Player Count: ${this.playerCount}</li>
-            <li>Play Time: ${this.playTime} minutes</li>
-            <li>Genre: ${this.genre}</li>
-            </ul>
-            <p class="description">${this.description}</p>
-            </div>
-            </div>`)
-    }
-});
+// $.each(sortedArray, function() {
+//     if (this.new && !this.favorite) {
+//         $(".recent-container").append(
+//         `<div class="game">
+//         <div class="game-head">
+//         <h3>${this.name}</h3>
+//         </div>
+//         <div class="game-body">
+//         <div class="img-container"><img src="${this.img}"></div>
+//         <ul>
+//         <li>Player Count: ${this.playerCount}</li>
+//         <li>Play Time: ${this.playTime} minutes</li>
+//         <li>Genre: ${this.genre}</li>
+//         </ul>
+//         <p class="description">${this.description}</p>
+//         </div>
+//         </div>`)
+//     }
+//     if (this.new && this.favorite) {
+//         $(".recent-container").append(
+//             `<div class="game">
+//             <div class="game-head">
+//             <h3>${this.name}</h3>
+//             </div>
+//             <div class="game-body">
+//             <div class="img-container"><img class="favorite" src="${this.img}"></div>
+//             <ul>
+//             <li>Player Count: ${this.playerCount}</li>
+//             <li>Play Time: ${this.playTime} minutes</li>
+//             <li>Genre: ${this.genre}</li>
+//             </ul>
+//             <p class="description">${this.description}</p>
+//             </div>
+//             </div>`)
+//     }
+// });
 
-$.each(sortedArray, function() {
-    if (this.wishlist) {
-        $(".wishlist-container").append(
-        `<div class="game">
-        <div class="game-head">
-        <h3>${this.name}</h3>
-        </div>
-        <div class="game-body">
-        <div class="img-container"><img src="${this.img}"></div>
-        <ul>
-        <li>Player Count: ${this.playerCount}</li>
-        <li>Play Time: ${this.playTime} minutes</li>
-        <li>Genre: ${this.genre}</li>
-        </ul>
-        <p class="description">${this.description}</p>
-        </div>
-        </div>`)
-    }
-});
+// $.each(sortedArray, function() {
+//     if (this.wishlist) {
+//         $(".wishlist-container").append(
+//         `<div class="game">
+//         <div class="game-head">
+//         <h3>${this.name}</h3>
+//         </div>
+//         <div class="game-body">
+//         <div class="img-container"><img src="${this.img}"></div>
+//         <ul>
+//         <li>Player Count: ${this.playerCount}</li>
+//         <li>Play Time: ${this.playTime} minutes</li>
+//         <li>Genre: ${this.genre}</li>
+//         </ul>
+//         <p class="description">${this.description}</p>
+//         </div>
+//         </div>`)
+//     }
+// });
 
 $(".recent").addClass("selected");
 
