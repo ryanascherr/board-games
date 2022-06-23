@@ -515,17 +515,17 @@ const gamesList = [
         favorite: false,
         new: false
     },
-    {
-        name: "Inis",
-        playerCount: "2-4",
-        playTime: 75,
-        description: "Inis is a game deeply rooted in Celtic history and lore in which players win by being elected King of the Island (Inis). Players can try to achieve one of three different victory conditions. Over the course of the game, players also earn deeds, typically chanted by bards or engraved by master crafters, that reduce by one the magic total of six for any condition. While one victory condition is enough to claim the title of King, a game of experienced players usually has a tight balance of power, emphasizing the leadership of the capital of the island.",
-        img: "./img/inis.png",
-        genre: "Strategy",
-        favorite: false,
-        new: false,
-        wishlist: true
-    },
+    // {
+    //     name: "Inis",
+    //     playerCount: "2-4",
+    //     playTime: 75,
+    //     description: "Inis is a game deeply rooted in Celtic history and lore in which players win by being elected King of the Island (Inis). Players can try to achieve one of three different victory conditions. Over the course of the game, players also earn deeds, typically chanted by bards or engraved by master crafters, that reduce by one the magic total of six for any condition. While one victory condition is enough to claim the title of King, a game of experienced players usually has a tight balance of power, emphasizing the leadership of the capital of the island.",
+    //     img: "./img/inis.png",
+    //     genre: "Strategy",
+    //     favorite: false,
+    //     new: false,
+    //     wishlist: true
+    // },
     {
         name: "Calico",
         playerCount: "1-4",
@@ -547,17 +547,17 @@ const gamesList = [
         new: false,
         wishlist: true
     },
-    {
-        name: "Clank!",
-        playerCount: "2-4",
-        playTime: 45,
-        description: "Clank! is a deck-building game. Each player has their own deck, and building yours up is part of playing the game. You start each of your turns with five cards in your hand, and you'll play them all in any order you choose. Most cards will generate resources, of which there are three different kinds. Every time you acquire a new card, you put it face up in your discard pile. Whenever you need to draw a card and find your deck empty, you shuffle your discard pile and turn it face down to form a new deck. With each shuffle, your newest cards become part of a bigger and better deck! Each player starts with the same cards in their deck, but they'll acquire different cards during their turns. Because cards can do many different things, each player's deck (and strategy) will become more and more different as the game unfolds.",
-        img: "./img/clank.png",
-        genre: "Deck-Builder",
-        favorite: false,
-        new: false,
-        wishlist: true
-    },
+    // {
+    //     name: "Clank!",
+    //     playerCount: "2-4",
+    //     playTime: 45,
+    //     description: "Clank! is a deck-building game. Each player has their own deck, and building yours up is part of playing the game. You start each of your turns with five cards in your hand, and you'll play them all in any order you choose. Most cards will generate resources, of which there are three different kinds. Every time you acquire a new card, you put it face up in your discard pile. Whenever you need to draw a card and find your deck empty, you shuffle your discard pile and turn it face down to form a new deck. With each shuffle, your newest cards become part of a bigger and better deck! Each player starts with the same cards in their deck, but they'll acquire different cards during their turns. Because cards can do many different things, each player's deck (and strategy) will become more and more different as the game unfolds.",
+    //     img: "./img/clank.png",
+    //     genre: "Deck-Builder",
+    //     favorite: false,
+    //     new: false,
+    //     wishlist: true
+    // },
     {
         name: "The Fuzzies",
         playerCount: "2-4",
@@ -567,6 +567,17 @@ const gamesList = [
         genre: "Dexterity",
         favorite: false,
         new: true
+    },
+    {
+        name: "Radlands",
+        playerCount: "2",
+        playTime: 30,
+        description: "Radlands is a competitive, dueling card game about identifying fiercely powerful card synergies. Act as the leader of your post apocalyptic group of survivors in a tooth-and-nail fight to protect your three camps from a vicious rival tribe. If all of them are destroyed, you lose the game.",
+        img: "./img/radlands.png",
+        genre: "Card Game",
+        favorite: false,
+        new: true,
+        bachelor: false
     }
 ]
 
