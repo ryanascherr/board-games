@@ -58,7 +58,8 @@ const gamesList = [
         description: "In Codenames, each team leader wants their team to guess a list of words from a selection of 25. They do so by giving clues about them - one word followed by the number of words the clue corresponds to.A team wins when they guess all of their leader's words.",
         img: "./img/codenames.png",
         genre: "Card Game",
-        favorite: false
+        favorite: false,
+        bachelor: true
     },
     {
         name: "Oath",
@@ -76,7 +77,8 @@ const gamesList = [
         description: "In Long Shot: The Dice Game, players will strategize and push their luck as the action unfolds in a tense race of eight horses. During the game you buy horses, place bets, influence race movement, and utilize special abilities. Will you play it safe, or risk it big on a long shot?",
         img: "./img/long-shot.png",
         genre: "Gambling",
-        favorite: false
+        favorite: false,
+        bachelor: true
     },
     {
         name: "The Quacks of Quedlinburg",
@@ -198,7 +200,8 @@ const gamesList = [
         description: "In Dungeons & Dragons card game Dungeon Mayhem, you win by being the last adventurer standing. Play as one of twelve characters, battling it out in a dungeon full of treasure! You win if you're the last character alive.",
         img: "./img/dungeon-mayhem.png",
         genre: "Card Game",
-        favorite: false
+        favorite: false,
+        bachelor: true
     },
     {
         name: "Disney Villainous",
@@ -354,7 +357,8 @@ const gamesList = [
         description: "CONFIDENT? is a trivia game where instead of giving exact answers, you guess with a RANGE! You only need to get the right answer in your range to win points so everyone can have a go, but the smaller your range compared to everyone else, the more you score! Are you CONFIDENT enough to win?",
         img: "./img/confident.png",
         genre: "Trivia",
-        favorite: false
+        favorite: false,
+        bachelor: true
     },
     {
         name: "Betrayal at House on the Hill",
@@ -428,7 +432,8 @@ const gamesList = [
         description: "Can you trust your eyes? How much color do you really see? These questions are what drive gameplay in Illusion, with rules that allow for gameplay to start immediately. Who has the right perspective not to be fooled?",
         img: "./img/illusion.png",
         genre: "Card Game",
-        favorite: false
+        favorite: false,
+        bachelor: true
     },
     {
         name: "Superfight",
@@ -575,9 +580,19 @@ const gamesList = [
         description: "Radlands is a competitive, dueling card game about identifying fiercely powerful card synergies. Act as the leader of your post apocalyptic group of survivors in a tooth-and-nail fight to protect your three camps from a vicious rival tribe. If all of them are destroyed, you lose the game.",
         img: "./img/radlands.png",
         genre: "Card Game",
-        favorite: false,
+        favorite: true,
         new: true,
         bachelor: false
+    },
+    {
+        name: "The Game",
+        playerCount: "1-5",
+        playTime: 20,
+        description: "Players in The Game try to discard all 98 cards in the deck onto four discard piles in order to win, but they need to do so in the right ways. On a turn, a player must discard at least two cards from their hand onto one or more discard piles, with cards on the 1 piles being placed in ascending order and cards on the 100 piles being placed in descending order. One tricky aspect of the game is that you can play a card exactly 10 higher/lower than the top card of a discard pile even when you would normally have to play in a descending/ascending order.",
+        img: "./img/game.png",
+        genre: "Card Game",
+        new: true,
+        bachelor: true
     }
 ]
 
