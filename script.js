@@ -472,7 +472,7 @@ const gamesList = [
         description: "Doodle Dash is a party game where the players draw the same word at the same time. It's a drawing competition where speed can beat skill, so anyone can win! Win by being the fastest doodler, but watch out - you only score if the guesser can actually tell what your drawing is!",
         img: "./img/doodle-dash.png",
         genre: "Party Game",
-        favorite: false,
+        favorite: true,
         new: true,
         bachelor: true
     },
