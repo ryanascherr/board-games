@@ -7,7 +7,7 @@ const gamesList = [
         img: "./img/cockroach-poker.png",
         genre: "Social Deduction",
         favorite: false,
-        new: true,
+        new: false,
         bachelor: true
     },
     {
@@ -18,7 +18,7 @@ const gamesList = [
         img: "./img/take-5.png",
         genre: "Card Game",
         favorite: false,
-        new: true,
+        new: false,
         bachelor: true
     },
     {
@@ -124,7 +124,7 @@ const gamesList = [
         img: "./img/klask.png",
         genre: "Dexterity",
         favorite: true,
-        new: true,
+        new: false,
         bachelor: true
     },
     {
@@ -591,7 +591,7 @@ const gamesList = [
         description: "Players in The Game try to discard all 98 cards in the deck onto four discard piles in order to win, but they need to do so in the right ways. On a turn, a player must discard at least two cards from their hand onto one or more discard piles, with cards on the 1 piles being placed in ascending order and cards on the 100 piles being placed in descending order. One tricky aspect of the game is that you can play a card exactly 10 higher/lower than the top card of a discard pile even when you would normally have to play in a descending/ascending order.",
         img: "./img/game.png",
         genre: "Card Game",
-        new: true,
+        new: false,
         bachelor: true
     }
 ]
