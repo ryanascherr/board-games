@@ -593,6 +593,16 @@ const gamesList = [
         genre: "Card Game",
         new: false,
         bachelor: true
+    },
+    {
+        name: "Telestrations After Dark",
+        playerCount: "4-8",
+        playTime: 25,
+        description: "Each player begins by sketching a TELESTRATIONS word. Then all players, all at the same time, pass their sketch to the next player, who must guess what's been drawn. Players then simultaneously pass their guess -- which hopefully matches the original word (or does it??) -- to the next player who must try to draw the word they see -- and so on.",
+        img: "./img/telestrations.png",
+        genre: "Party Game",
+        new: false,
+        bachelor: true
     }
 ]
 
