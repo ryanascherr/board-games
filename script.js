@@ -603,6 +603,16 @@ const gamesList = [
         genre: "Party Game",
         new: false,
         bachelor: true
+    },
+    {
+        name: "Snakesss",
+        playerCount: "4-8",
+        playTime: 20,
+        description: "In Snakesss, you deal out the cards and try to answer a multiple-choice question with the rest of the players. The more people who get it right, the more points you cash in — unless, of course, you get one of the snake cards. All the snakes already know the answer, so their job is a bit simpler. To score points, they have to sabotage the discussion and mislead the other players.",
+        img: "./img/snakesss.png",
+        genre: "Social Deduction",
+        new: true,
+        bachelor: true
     }
 ]
 
