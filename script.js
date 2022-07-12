@@ -7,8 +7,7 @@ const gamesList = [
         img: "./img/cockroach-poker.png",
         genre: "Social Deduction",
         favorite: false,
-        new: false,
-        bachelor: true
+        new: false
     },
     {
         name: "Take 5 (6 Nimmt)",
@@ -18,8 +17,7 @@ const gamesList = [
         img: "./img/take-5.png",
         genre: "Card Game",
         favorite: false,
-        new: false,
-        bachelor: true
+        new: false
     },
     {
         name: "The Crew: Mission Deep Sea",
@@ -28,8 +26,7 @@ const gamesList = [
         description: "In the trick-taking card game The Crew: Mission Deep Sea, you and the other players work together to search for the lost continent of Mu. In each mission, players have to work together to complete its unique tasks, but players aren't allowed to talk!",
         img: "./img/the-crew.png",
         genre: "Trick-Taking Game",
-        favorite: true,
-        bachelor: true
+        favorite: true
     },
     {
         name: "Skull",
@@ -38,8 +35,7 @@ const gamesList = [
         description: "In the bluffing game Skull, each player plays a face-down card (a skull or rose), then each player in turn adds one more card - until someone feels safe enough to state that he can turn a number of cards face up and get only roses. If they can do it, they win the round. Win two rounds to win the game!",
         img: "./img/skull.png",
         genre: "Social Deduction",
-        favorite: true,
-        bachelor: true
+        favorite: true
     },
     {
         name: "One Night Ultimate Werewolf",
@@ -48,8 +44,7 @@ const gamesList = [
         description: "One Night Ultimate Werewolf is a fast-paced game where everyone is dealt a secret role, some of which have special abilities that will aid that player in gaining information. In the course one night and the following morning, the players will determine who among them is a werewolf...hopefully.",
         img: "./img/one-night-ultimate-werewolf.png",
         genre: "Social Deduction",
-        favorite: false,
-        bachelor: true
+        favorite: false
     },
     {
         name: "Codenames",
@@ -58,8 +53,7 @@ const gamesList = [
         description: "In Codenames, each team leader wants their team to guess a list of words from a selection of 25. They do so by giving clues about them - one word followed by the number of words the clue corresponds to.A team wins when they guess all of their leader's words.",
         img: "./img/codenames.png",
         genre: "Card Game",
-        favorite: false,
-        bachelor: true
+        favorite: false
     },
     {
         name: "Oath",
@@ -77,8 +71,7 @@ const gamesList = [
         description: "In Long Shot: The Dice Game, players will strategize and push their luck as the action unfolds in a tense race of eight horses. During the game you buy horses, place bets, influence race movement, and utilize special abilities. Will you play it safe, or risk it big on a long shot?",
         img: "./img/long-shot.png",
         genre: "Gambling",
-        favorite: false,
-        bachelor: true
+        favorite: false
     },
     {
         name: "The Quacks of Quedlinburg",
@@ -87,7 +80,7 @@ const gamesList = [
         description: "In The Quacks of Quedlinburg, players are making their own secret brew. Each player draws ingredient chips from their bags and add them to their pots. The more chips you place, the better the pot. Push your luck as far as you can, but if you add too many cherry bombs, your pot will explode!",
         img: "./img/quacks.png",
         genre: "Push Your Luck",
-        favorite: true
+        favorite: false
     },
     {
         name: "Hive",
@@ -124,8 +117,7 @@ const gamesList = [
         img: "./img/klask.png",
         genre: "Dexterity",
         favorite: true,
-        new: false,
-        bachelor: true
+        new: false
     },
     {
         name: "Trails",
@@ -170,8 +162,7 @@ const gamesList = [
         description: "Secret Hitler is a dramatic game of political intrigue and betrayal set in 1930s Germany. Each player is randomly and secretly assigned to be a liberal or a fascist, and one player is Secret Hitler. The fascists coordinate to sow distrust and install their cold-blooded leader; the liberals must find and stop the Secret Hitler before it's too late.",
         img: "./img/secret-hitler.png",
         genre: "Social Deduction",
-        favorite: true,
-        bachelor: true
+        favorite: true
     },
     {
         name: "Ca$h 'n Guns",
@@ -180,8 +171,7 @@ const gamesList = [
         description: "In an abandoned warehouse a gangster band is splitting its loot, but they can't agree on the split! It's time to let the guns talk and soon everyone is aiming at everyone. The richest surviving gangster wins the game! The goal is to have more money than anyone else after eight rounds while still being alive.",
         img: "./img/cash-n-guns.png",
         genre: "Party Game",
-        favorite: false,
-        bachelor: true
+        favorite: false
     },
     {
         name: "Wavelength",
@@ -190,8 +180,7 @@ const gamesList = [
         description: "Wavelength is a social guessing game in which two teams compete to read each other's minds. Teams take turns rotating a dial to where they think a hidden bullseye is located on a spectrum. One of the players on your team — the Psychic — knows exactly where the bullseye is, and gives a clue to get their team to guess.",
         img: "./img/wavelength.png",
         genre: "Party Game",
-        favorite: false,
-        bachelor: true
+        favorite: false
     },
     {
         name: "Dungeon Mayhem",
@@ -200,8 +189,7 @@ const gamesList = [
         description: "In Dungeons & Dragons card game Dungeon Mayhem, you win by being the last adventurer standing. Play as one of twelve characters, battling it out in a dungeon full of treasure! You win if you're the last character alive.",
         img: "./img/dungeon-mayhem.png",
         genre: "Card Game",
-        favorite: false,
-        bachelor: true
+        favorite: false
     },
     {
         name: "Disney Villainous",
@@ -228,8 +216,7 @@ const gamesList = [
         description: "In Werewords, players guess a word by asking 'yes' or 'no' questions. Figure out the magic word before time is up, and you win! However, one of the players is secretly a werewolf who is not only working against you, but also knows the magic word. If you don't guess the word in time, you can still win by identifying the werewolf! To help you out, one player is the Seer, who knows the word, but has to be careful while helping you. If you guess the word, the werewolf can pull out a win by identifying the Seer!",
         img: "./img/werewords.png",
         genre: "Social Deduction",
-        favorite: false,
-        bachelor: true
+        favorite: false
     },
     {
         name: "Silver & Gold",
@@ -337,8 +324,7 @@ const gamesList = [
         description: "In Coup, you want to be the last player with influence in the game, with influence being represented by face-down character cards, each with a unique ability. When you take one of the character actions, you can bluff as any character, and it automatically succeeds unless an opponent challenges you. If you lose both you're out of the game.",
         img: "./img/coup.png",
         genre: "Social Deduction",
-        favorite: false,
-        bachelor: true
+        favorite: false
     },
     {
         name: "Monikers",
@@ -347,8 +333,7 @@ const gamesList = [
         description: "Monikers is a party game based on the public domain game Celebrity, where players take turns attempting to get their teammates to guess names by describing or imitating well-known people. In the first round, clue givers can say anything they want, except for the name itself. For the second round, clue givers can only say one word. And in the final round, clue givers can’t say anything at all: they can only use gestures and charades.",
         img: "./img/monikers.png",
         genre: "Party Game",
-        favorite: true,
-        bachelor: true
+        favorite: true
     },
     {
         name: "CONFIDENT?",
@@ -357,8 +342,7 @@ const gamesList = [
         description: "CONFIDENT? is a trivia game where instead of giving exact answers, you guess with a RANGE! You only need to get the right answer in your range to win points so everyone can have a go, but the smaller your range compared to everyone else, the more you score! Are you CONFIDENT enough to win?",
         img: "./img/confident.png",
         genre: "Trivia",
-        favorite: false,
-        bachelor: true
+        favorite: false
     },
     {
         name: "Betrayal at House on the Hill",
@@ -385,8 +369,7 @@ const gamesList = [
         description: "FUSE is a real-time co-operative game that employs 25 dice and 65 cards. Each game is set to a ten-minute timer, and players must work together in that ten minutes to defuse all of the bombs. Each bomb is represented by a card which needs a certain combination of dice in order to defuse it. A player will draw a number of dice equal to the number of players out of a bag and roll them. Players must then decide who will get which dice, but each player must take one and only one. It's a simple task: maximize the potential of your dice among all of the players. The problem is that you have only ten minutes, and there are more than twenty bombs on your ship. You don't have time to think through every option. You barely have time to yell at Grandma as she reaches for that red die you need. This game will self-destruct in ten minutes...",
         img: "./img/fuse.png",
         genre: "Dexterity",
-        favorite: false,
-        bachelor: true
+        favorite: false
     },
     {
         name: "One Deck Dungeon",
@@ -413,8 +396,7 @@ const gamesList = [
         description: "The Mind is more than just a game. It's an experiment, a journey, a team experience in which you can't exchange information, yet will become one to defeat all the levels of the game. In more detail, the deck contains cards numbered 1-100, and during the game you try to complete 12, 10, or 8 levels of play with 2, 3, or 4 players. In a level, each player receives a hand of cards equal to the number of the level: one card in level 1, two cards in level 2, etc. Collectively you must play these cards into the center of the table on a single discard pile in ascending order but you cannot communicate with one another in any way as to which cards you hold. You simply stare into one another's eyes, and when you feel the time is right, you play your lowest card. If no one holds a card lower than what you played, great, the game continues! If someone did, all players discard face up all cards lower than what you played, and you lose one life.",
         img: "./img/the-mind.png",
         genre: "Card Game",
-        favorite: false,
-        bachelor: true
+        favorite: false
     },
     {
         name: "The Keeyp",
@@ -432,8 +414,7 @@ const gamesList = [
         description: "Can you trust your eyes? How much color do you really see? These questions are what drive gameplay in Illusion, with rules that allow for gameplay to start immediately. Who has the right perspective not to be fooled?",
         img: "./img/illusion.png",
         genre: "Card Game",
-        favorite: false,
-        bachelor: true
+        favorite: false
     },
     {
         name: "Superfight",
@@ -451,8 +432,7 @@ const gamesList = [
         description: "Anomia plays off the fact that our minds are positively brimming with all sorts of random information: things to eat, pop songs, websites, etc... Sure, under normal circumstances, it's easy to give an example of a frozen food or a dog breed, but you'll find that your brain works a little differently under pressure!",
         img: "./img/anomia.png",
         genre: "Party Game",
-        favorite: false,
-        bachelor: true
+        favorite: false
     },
     {
         name: "No Thanks!",
@@ -462,8 +442,7 @@ const gamesList = [
         img: "./img/no-thanks.png",
         genre: "Card Game",
         favorite: false,
-        new: true,
-        bachelor: true
+        new: false
     },
     {
         name: "Doodle Dash",
@@ -473,8 +452,7 @@ const gamesList = [
         img: "./img/doodle-dash.png",
         genre: "Party Game",
         favorite: true,
-        new: true,
-        bachelor: true
+        new: false
     },
     {
         name: "Blood on the Clocktower",
@@ -484,9 +462,7 @@ const gamesList = [
         img: "./img/clocktower.png",
         genre: "Social Deduction",
         favorite: true,
-        new: false,
-        wishlist: true,
-        bachelor: true
+        new: true
     },
     {
         name: "Root",
@@ -539,7 +515,7 @@ const gamesList = [
         img: "./img/calico.png",
         genre: "Strategy",
         favorite: false,
-        new: true
+        new: false
     },
     {
         name: "Inhuman Conditions",
@@ -571,7 +547,7 @@ const gamesList = [
         img: "./img/fuzzies.png",
         genre: "Dexterity",
         favorite: false,
-        new: true
+        new: false
     },
     {
         name: "Radlands",
@@ -582,28 +558,25 @@ const gamesList = [
         genre: "Card Game",
         favorite: true,
         new: true,
-        bachelor: false
     },
-    {
-        name: "The Game",
-        playerCount: "1-5",
-        playTime: 20,
-        description: "Players in The Game try to discard all 98 cards in the deck onto four discard piles in order to win, but they need to do so in the right ways. On a turn, a player must discard at least two cards from their hand onto one or more discard piles, with cards on the 1 piles being placed in ascending order and cards on the 100 piles being placed in descending order. One tricky aspect of the game is that you can play a card exactly 10 higher/lower than the top card of a discard pile even when you would normally have to play in a descending/ascending order.",
-        img: "./img/game.png",
-        genre: "Card Game",
-        new: false,
-        bachelor: true
-    },
-    {
-        name: "Telestrations After Dark",
-        playerCount: "4-8",
-        playTime: 25,
-        description: "Each player begins by sketching a TELESTRATIONS word. Then all players, all at the same time, pass their sketch to the next player, who must guess what's been drawn. Players then simultaneously pass their guess -- which hopefully matches the original word (or does it??) -- to the next player who must try to draw the word they see -- and so on.",
-        img: "./img/telestrations.png",
-        genre: "Party Game",
-        new: false,
-        bachelor: true
-    },
+    // {
+    //     name: "The Game",
+    //     playerCount: "1-5",
+    //     playTime: 20,
+    //     description: "Players in The Game try to discard all 98 cards in the deck onto four discard piles in order to win, but they need to do so in the right ways. On a turn, a player must discard at least two cards from their hand onto one or more discard piles, with cards on the 1 piles being placed in ascending order and cards on the 100 piles being placed in descending order. One tricky aspect of the game is that you can play a card exactly 10 higher/lower than the top card of a discard pile even when you would normally have to play in a descending/ascending order.",
+    //     img: "./img/game.png",
+    //     genre: "Card Game",
+    //     new: false
+    // },
+    // {
+    //     name: "Telestrations After Dark",
+    //     playerCount: "4-8",
+    //     playTime: 25,
+    //     description: "Each player begins by sketching a TELESTRATIONS word. Then all players, all at the same time, pass their sketch to the next player, who must guess what's been drawn. Players then simultaneously pass their guess -- which hopefully matches the original word (or does it??) -- to the next player who must try to draw the word they see -- and so on.",
+    //     img: "./img/telestrations.png",
+    //     genre: "Party Game",
+    //     new: false
+    // },
     {
         name: "Snakesss",
         playerCount: "4-8",
@@ -612,20 +585,21 @@ const gamesList = [
         img: "./img/snakesss.png",
         genre: "Social Deduction",
         new: true,
-        bachelor: true
     }
 ]
 
 $('#game-choice').change(function() {
     let name = $("#game-choice").val();
     $("#game-choice").val("");
+    $(".parent-container").addClass("hidden");
+    $(".single-parent-container").removeClass("hidden");
     $.each(sortedArray, function() {
         if (this.name != name) return;
         if (this.name == name) {
-            $(".bachelor-container").empty();
+            $(".single-container").empty();
             $(".show-all-btn-container").empty();
             $(".show-all-btn-container").append(`<button class="show-all-btn">Show All Games</button>`);
-            $(".bachelor-container").append(
+            $(".single-container").append(
                 `<div class="game">
                 <div class="game-head">
                 <h3>${this.name}</h3>
@@ -645,52 +619,111 @@ $('#game-choice').change(function() {
 });
 
 $(".show-all-btn-container").click(function() {
-    $(".bachelor-container").empty();
+    $(".single-container").empty();
     $(".show-all-btn-container").empty();
-    $.each(sortedArray, function() {
-        if (this.bachelor && !this.favorite) {
-            $(".bachelor-container").append(
-                `<div class="game">
-                <div class="game-head">
-                <h3>${this.name}</h3>
-                </div>
-                <div class="game-body">
-                <div class="img-container"><img src="${this.img}"></div>
-                <ul>
-                <li>Player Count: ${this.playerCount}</li>
-                <li>Play Time: ${this.playTime} minutes</li>
-                <li>Genre: ${this.genre}</li>
-                </ul>
-                <p class="description">${this.description}</p>
-                </div>
-                </div>`)
-        } else if (this.bachelor && this.favorite) {
-            $(".bachelor-container").append(
-                `<div class="game">
-                <div class="game-head">
-                <h3>${this.name}</h3>
-                </div>
-                <div class="game-body">
-                <div class="img-container"><img class="favorite" src="${this.img}"></div>
-                <ul>
-                <li>Player Count: ${this.playerCount}</li>
-                <li>Play Time: ${this.playTime} minutes</li>
-                <li>Genre: ${this.genre}</li>
-                </ul>
-                <p class="description">${this.description}</p>
-                </div>
-                </div>`)
-        }
-    });
+    $(".all-parent-container").removeClass("hidden");
+    $(".nav-item").removeClass("selected");
+    $(".all").addClass("selected");
+    // $.each(sortedArray, function() {
+    //     if (!this.favorite) {
+    //         $(".single-container").append(
+    //             `<div class="game">
+    //             <div class="game-head">
+    //             <h3>${this.name}</h3>
+    //             </div>
+    //             <div class="game-body">
+    //             <div class="img-container"><img src="${this.img}"></div>
+    //             <ul>
+    //             <li>Player Count: ${this.playerCount}</li>
+    //             <li>Play Time: ${this.playTime} minutes</li>
+    //             <li>Genre: ${this.genre}</li>
+    //             </ul>
+    //             <p class="description">${this.description}</p>
+    //             </div>
+    //             </div>`)
+    //     } else if (this.favorite) {
+    //         $(".single-container").append(
+    //             `<div class="game">
+    //             <div class="game-head">
+    //             <h3>${this.name}</h3>
+    //             </div>
+    //             <div class="game-body">
+    //             <div class="img-container"><img class="favorite" src="${this.img}"></div>
+    //             <ul>
+    //             <li>Player Count: ${this.playerCount}</li>
+    //             <li>Play Time: ${this.playTime} minutes</li>
+    //             <li>Genre: ${this.genre}</li>
+    //             </ul>
+    //             <p class="description">${this.description}</p>
+    //             </div>
+    //             </div>`)
+    //     }
+    // });
 })
 
 let sortedArray= gamesList.sort(function(a, b) {
     return a.name.localeCompare(b.name);
 });
 
+// $.each(sortedArray, function() {
+//     if (!this.favorite) {
+//         $(".single-container").append(
+//             `<div class="game">
+//             <div class="game-head">
+//             <h3>${this.name}</h3>
+//             </div>
+//             <div class="game-body">
+//             <div class="img-container"><img src="${this.img}"></div>
+//             <ul>
+//             <li>Player Count: ${this.playerCount}</li>
+//             <li>Play Time: ${this.playTime} minutes</li>
+//             <li>Genre: ${this.genre}</li>
+//             </ul>
+//             <p class="description">${this.description}</p>
+//             </div>
+//             </div>`)
+//     } else if (this.favorite) {
+//         $(".single-container").append(
+//             `<div class="game">
+//             <div class="game-head">
+//             <h3>${this.name}</h3>
+//             </div>
+//             <div class="game-body">
+//             <div class="img-container"><img class="favorite" src="${this.img}"></div>
+//             <ul>
+//             <li>Player Count: ${this.playerCount}</li>
+//             <li>Play Time: ${this.playTime} minutes</li>
+//             <li>Genre: ${this.genre}</li>
+//             </ul>
+//             <p class="description">${this.description}</p>
+//             </div>
+//             </div>`)
+//     }
+// });
+
 $.each(sortedArray, function() {
-    if (this.bachelor && !this.favorite) {
-        $(".bachelor-container").append(
+    if (this.favorite) {
+        $(".favorites-container").append(
+        `<div class="game">
+        <div class="game-head">
+        <h3>${this.name}</h3>
+        </div>
+        <div class="game-body">
+        <div class="img-container"><img class="favorite" src="${this.img}"></div>
+        <ul>
+        <li>Player Count: ${this.playerCount}</li>
+        <li>Play Time: ${this.playTime} minutes</li>
+        <li>Genre: ${this.genre}</li>
+        </ul>
+        <p class="description">${this.description}</p>
+        </div>
+        </div>`)
+    }
+});
+
+$.each(sortedArray, function() {
+    if (!this.wishlist && !this.favorite) {
+        $(".all-container").append(
             `<div class="game">
             <div class="game-head">
             <h3>${this.name}</h3>
@@ -705,8 +738,9 @@ $.each(sortedArray, function() {
             <p class="description">${this.description}</p>
             </div>
             </div>`)
-    } else if (this.bachelor && this.favorite) {
-        $(".bachelor-container").append(
+    }
+    if (!this.wishlist && this.favorite) {
+        $(".all-container").append(
             `<div class="game">
             <div class="game-head">
             <h3>${this.name}</h3>
@@ -724,125 +758,71 @@ $.each(sortedArray, function() {
     }
 });
 
-// $.each(sortedArray, function() {
-//     if (this.favorite) {
-//         $(".favorites-container").append(
-//         `<div class="game">
-//         <div class="game-head">
-//         <h3>${this.name}</h3>
-//         </div>
-//         <div class="game-body">
-//         <div class="img-container"><img class="favorite" src="${this.img}"></div>
-//         <ul>
-//         <li>Player Count: ${this.playerCount}</li>
-//         <li>Play Time: ${this.playTime} minutes</li>
-//         <li>Genre: ${this.genre}</li>
-//         </ul>
-//         <p class="description">${this.description}</p>
-//         </div>
-//         </div>`)
-//     }
-// });
+$.each(sortedArray, function() {
+    if (this.new && !this.favorite) {
+        $(".recent-container").append(
+        `<div class="game">
+        <div class="game-head">
+        <h3>${this.name}</h3>
+        </div>
+        <div class="game-body">
+        <div class="img-container"><img src="${this.img}"></div>
+        <ul>
+        <li>Player Count: ${this.playerCount}</li>
+        <li>Play Time: ${this.playTime} minutes</li>
+        <li>Genre: ${this.genre}</li>
+        </ul>
+        <p class="description">${this.description}</p>
+        </div>
+        </div>`)
+    }
+    if (this.new && this.favorite) {
+        $(".recent-container").append(
+            `<div class="game">
+            <div class="game-head">
+            <h3>${this.name}</h3>
+            </div>
+            <div class="game-body">
+            <div class="img-container"><img class="favorite" src="${this.img}"></div>
+            <ul>
+            <li>Player Count: ${this.playerCount}</li>
+            <li>Play Time: ${this.playTime} minutes</li>
+            <li>Genre: ${this.genre}</li>
+            </ul>
+            <p class="description">${this.description}</p>
+            </div>
+            </div>`)
+    }
+});
 
-// $.each(sortedArray, function() {
-//     if (!this.wishlist && !this.favorite) {
-//         $(".all-container").append(
-//             `<div class="game">
-//             <div class="game-head">
-//             <h3>${this.name}</h3>
-//             </div>
-//             <div class="game-body">
-//             <div class="img-container"><img src="${this.img}"></div>
-//             <ul>
-//             <li>Player Count: ${this.playerCount}</li>
-//             <li>Play Time: ${this.playTime} minutes</li>
-//             <li>Genre: ${this.genre}</li>
-//             </ul>
-//             <p class="description">${this.description}</p>
-//             </div>
-//             </div>`)
-//     }
-//     if (!this.wishlist && this.favorite) {
-//         $(".all-container").append(
-//             `<div class="game">
-//             <div class="game-head">
-//             <h3>${this.name}</h3>
-//             </div>
-//             <div class="game-body">
-//             <div class="img-container"><img class="favorite" src="${this.img}"></div>
-//             <ul>
-//             <li>Player Count: ${this.playerCount}</li>
-//             <li>Play Time: ${this.playTime} minutes</li>
-//             <li>Genre: ${this.genre}</li>
-//             </ul>
-//             <p class="description">${this.description}</p>
-//             </div>
-//             </div>`)
-//     }
-// });
-
-// $.each(sortedArray, function() {
-//     if (this.new && !this.favorite) {
-//         $(".recent-container").append(
-//         `<div class="game">
-//         <div class="game-head">
-//         <h3>${this.name}</h3>
-//         </div>
-//         <div class="game-body">
-//         <div class="img-container"><img src="${this.img}"></div>
-//         <ul>
-//         <li>Player Count: ${this.playerCount}</li>
-//         <li>Play Time: ${this.playTime} minutes</li>
-//         <li>Genre: ${this.genre}</li>
-//         </ul>
-//         <p class="description">${this.description}</p>
-//         </div>
-//         </div>`)
-//     }
-//     if (this.new && this.favorite) {
-//         $(".recent-container").append(
-//             `<div class="game">
-//             <div class="game-head">
-//             <h3>${this.name}</h3>
-//             </div>
-//             <div class="game-body">
-//             <div class="img-container"><img class="favorite" src="${this.img}"></div>
-//             <ul>
-//             <li>Player Count: ${this.playerCount}</li>
-//             <li>Play Time: ${this.playTime} minutes</li>
-//             <li>Genre: ${this.genre}</li>
-//             </ul>
-//             <p class="description">${this.description}</p>
-//             </div>
-//             </div>`)
-//     }
-// });
-
-// $.each(sortedArray, function() {
-//     if (this.wishlist) {
-//         $(".wishlist-container").append(
-//         `<div class="game">
-//         <div class="game-head">
-//         <h3>${this.name}</h3>
-//         </div>
-//         <div class="game-body">
-//         <div class="img-container"><img src="${this.img}"></div>
-//         <ul>
-//         <li>Player Count: ${this.playerCount}</li>
-//         <li>Play Time: ${this.playTime} minutes</li>
-//         <li>Genre: ${this.genre}</li>
-//         </ul>
-//         <p class="description">${this.description}</p>
-//         </div>
-//         </div>`)
-//     }
-// });
+$.each(sortedArray, function() {
+    if (this.wishlist) {
+        $(".wishlist-container").append(
+        `<div class="game">
+        <div class="game-head">
+        <h3>${this.name}</h3>
+        </div>
+        <div class="game-body">
+        <div class="img-container"><img src="${this.img}"></div>
+        <ul>
+        <li>Player Count: ${this.playerCount}</li>
+        <li>Play Time: ${this.playTime} minutes</li>
+        <li>Genre: ${this.genre}</li>
+        </ul>
+        <p class="description">${this.description}</p>
+        </div>
+        </div>`)
+    }
+});
 
 $(".recent").addClass("selected");
 
 $(".nav-item").click(function() {
     $(".nav-item").removeClass("selected");
     $(this).addClass("selected");
+    $(".single-container").empty();
+    $(".show-all-btn-container").empty();
+    $(".all-parent-container").removeClass("hidden");
 })
 
 $(".recent").click(function() {
@@ -863,94 +843,4 @@ $(".all").click(function() {
 $(".wishlist").click(function() {
     $(".parent-container").addClass("hidden");
     $(".wishlist-parent-container").removeClass("hidden");
-})
-
-$(".search").click(function() {
-    $(".parent-container").addClass("hidden");
-    $(".tag").removeClass("selected-tag");
-    $(".search-parent-container").removeClass("hidden");
-})
-
-// let arrayOfTags = [];
-$(".tag").click(function() {
-    let tag = $(this).data("tag");
-
-    $(".search-container").empty();
-
-    // if ($(this).hasClass("selected-tag")) {
-    //     $(this).removeClass("selected-tag");
-    //     arrayOfTags.splice($.inArray(tag, arrayOfTags), 1 );
-    //     console.log(arrayOfTags);
-    // } else {
-    //     $(this).addClass("selected-tag");
-    //     arrayOfTags.push(tag);
-    //     console.log(arrayOfTags); 
-    // }
-
-    $(".tag").removeClass("selected-tag");
-    $(this).addClass("selected-tag");
-
-    $.each(sortedArray, function() {
-        if (tag == this.genre && !this.wishlist && !this.favorite) {
-            $(".search-container").append(
-                `<div class="game">
-                <div class="game-head">
-                <h3>${this.name}</h3>
-                </div>
-                <div class="game-body">
-                <div class="img-container"><img src="${this.img}"></div>
-                <ul>
-                <li>Player Count: ${this.playerCount}</li>
-                <li>Play Time: ${this.playTime} minutes</li>
-                <li>Genre: ${this.genre}</li>
-                </ul>
-                <p class="description">${this.description}</p>
-                </div>
-                </div>`)
-        }
-        if (tag == this.genre && !this.wishlist && this.favorite) {
-            $(".search-container").append(
-                `<div class="game">
-                <div class="game-head">
-                <h3>${this.name}</h3>
-                </div>
-                <div class="game-body">
-                <div class="img-container"><img class="favorite" src="${this.img}"></div>
-                <ul>
-                <li>Player Count: ${this.playerCount}</li>
-                <li>Play Time: ${this.playTime} minutes</li>
-                <li>Genre: ${this.genre}</li>
-                </ul>
-                <p class="description">${this.description}</p>
-                </div>
-                </div>`)
-        }
-    })
-
-    // $.each(sortedArray, function () {
-    //     let matchesAll = true;
-    //     $.each(this.genre, function () {
-    //         if (arrayOfTags.includes(this)) return;
-    //         if (!arrayOfTags.includes(this)) {
-    //             matchesAll = false;
-    //         }
-    //     })
-    //     if (matchesAll) {
-    //         $(".search-container").append(
-    //             `<div class="game">
-    //             <div class="game-head">
-    //             <h3>${this.name}</h3>
-    //             </div>
-    //             <div class="game-body">
-    //             <div class="img-container"><img src="${this.img}"></div>
-    //             <ul>
-    //             <li>Player Count: ${this.playerCount}</li>
-    //             <li>Play Time: ${this.playTime} minutes</li>
-    //             <li>Genre: ${this.genre}</li>
-    //             </ul>
-    //             <p class="description">${this.description}</p>
-    //             </div>
-    //             </div>`)
-    //     }
-    // })
 })
