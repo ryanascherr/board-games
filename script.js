@@ -16,7 +16,7 @@ const gamesList = [
         description: "In Take 5, players simultaneously play cards from their hand into a play area. Knowing when to play each card in your hand is key; play the wrong one and you might be collecting 5 cards and getting all of their points. The player with the least amount of points wins.",
         img: "./img/take-5.png",
         genre: "Card Game",
-        favorite: false,
+        favorite: true,
         new: false
     },
     {
@@ -107,7 +107,7 @@ const gamesList = [
         description: "In this two-player strategy game, each player controls 16 stones across four boards. During a turn, a player can move one of their stones, then must move a stone on a different board in the same way. The second move can push opposing stones off the board. The first to remove all of their opponent's stones from any board is the winner.",
         img: "./img/shobu.png",
         genre: "Strategy",
-        favorite: false
+        favorite: true
     },
     {
         name: "Klask",
@@ -116,7 +116,7 @@ const gamesList = [
         description: "Klask is a two-player air-hockey-like dexterity game. Each player controls a magnetic 'striker' which they use to bounce the game ball into their opponent's goal. Players can also score if their opponent loses control of their striker, attracks two of the three magnets on the board, or lands in their striker in their own goal.",
         img: "./img/klask.png",
         genre: "Dexterity",
-        favorite: true,
+        favorite: false,
         new: false
     },
     {
@@ -135,7 +135,7 @@ const gamesList = [
         description: "Players create garden paths for their visitors with their tree cards. Each turn, players play and discard a card, and your discarded cards can be taken by your opponents. The player with the most points from their garden paths win the game.",
         img: "./img/arboretum.png",
         genre: "Card Game",
-        favorite: true
+        favorite: false
     },
     {
         name: "The Fox in the Forest",
@@ -162,7 +162,7 @@ const gamesList = [
         description: "Secret Hitler is a dramatic game of political intrigue and betrayal set in 1930s Germany. Each player is randomly and secretly assigned to be a liberal or a fascist, and one player is Secret Hitler. The fascists coordinate to sow distrust and install their cold-blooded leader; the liberals must find and stop the Secret Hitler before it's too late.",
         img: "./img/secret-hitler.png",
         genre: "Social Deduction",
-        favorite: true
+        favorite: false
     },
     {
         name: "Ca$h 'n Guns",
@@ -458,11 +458,11 @@ const gamesList = [
         name: "Blood on the Clocktower",
         playerCount: "5-20",
         playTime: 75,
-        description: "Blood on the Clocktower is a bluffing game enjoyed by 5 to 20 players on opposing teams of Good and Evil, overseen by a Storyteller player who conducts the action and makes crucial decisions. The goal of the game is to successfully deduce and execute the demons before they outnumber the townfolk.",
+        description: "Blood on the Clocktower is a bluffing game enjoyed by 5 to 20 players on opposing teams of Good and Evil, overseen by a Storyteller player who conducts the action and makes crucial decisions. The goal of the game is to successfully deduce and execute the Demons before they outnumber the townfolk.",
         img: "./img/clocktower.png",
         genre: "Social Deduction",
         favorite: true,
-        new: true
+        new: false
     },
     {
         name: "Root",
@@ -472,8 +472,8 @@ const gamesList = [
         img: "./img/root.png",
         genre: "Wargame",
         favorite: false,
-        new: false,
-        wishlist: true
+        new: true,
+        wishlist: false
     },
     {
         name: "Modern Art",
@@ -482,9 +482,9 @@ const gamesList = [
         description: "Buying and selling paintings can be a very lucrative business. Five different artists have produced a bunch of paintings, and it's the player's task to be both the buyer and the seller, hopefully making a profit in both roles. He does this by putting a painting from his hand up for auction each turn. He gets the money if some other player buys it, but must pay the bank if he buys it for himself. After each round, paintings are valued by the number of paintings of that type that were sold. The broker with the most cash after four rounds is the winner.",
         img: "./img/modern-art.png",
         genre: "Auction",
-        favorite: false,
+        favorite: true,
         new: false,
-        wishlist: true
+        wishlist: false
     },
     {
         name: "The Adventure Zone: Bureau of Balance",
@@ -528,17 +528,6 @@ const gamesList = [
         new: false,
         wishlist: true
     },
-    // {
-    //     name: "Clank!",
-    //     playerCount: "2-4",
-    //     playTime: 45,
-    //     description: "Clank! is a deck-building game. Each player has their own deck, and building yours up is part of playing the game. You start each of your turns with five cards in your hand, and you'll play them all in any order you choose. Most cards will generate resources, of which there are three different kinds. Every time you acquire a new card, you put it face up in your discard pile. Whenever you need to draw a card and find your deck empty, you shuffle your discard pile and turn it face down to form a new deck. With each shuffle, your newest cards become part of a bigger and better deck! Each player starts with the same cards in their deck, but they'll acquire different cards during their turns. Because cards can do many different things, each player's deck (and strategy) will become more and more different as the game unfolds.",
-    //     img: "./img/clank.png",
-    //     genre: "Deck-Builder",
-    //     favorite: false,
-    //     new: false,
-    //     wishlist: true
-    // },
     {
         name: "The Fuzzies",
         playerCount: "2-4",
@@ -557,26 +546,8 @@ const gamesList = [
         img: "./img/radlands.png",
         genre: "Card Game",
         favorite: true,
-        new: true,
+        new: false,
     },
-    // {
-    //     name: "The Game",
-    //     playerCount: "1-5",
-    //     playTime: 20,
-    //     description: "Players in The Game try to discard all 98 cards in the deck onto four discard piles in order to win, but they need to do so in the right ways. On a turn, a player must discard at least two cards from their hand onto one or more discard piles, with cards on the 1 piles being placed in ascending order and cards on the 100 piles being placed in descending order. One tricky aspect of the game is that you can play a card exactly 10 higher/lower than the top card of a discard pile even when you would normally have to play in a descending/ascending order.",
-    //     img: "./img/game.png",
-    //     genre: "Card Game",
-    //     new: false
-    // },
-    // {
-    //     name: "Telestrations After Dark",
-    //     playerCount: "4-8",
-    //     playTime: 25,
-    //     description: "Each player begins by sketching a TELESTRATIONS word. Then all players, all at the same time, pass their sketch to the next player, who must guess what's been drawn. Players then simultaneously pass their guess -- which hopefully matches the original word (or does it??) -- to the next player who must try to draw the word they see -- and so on.",
-    //     img: "./img/telestrations.png",
-    //     genre: "Party Game",
-    //     new: false
-    // },
     {
         name: "Snakesss",
         playerCount: "4-8",
@@ -584,6 +555,42 @@ const gamesList = [
         description: "In Snakesss, you deal out the cards and try to answer a multiple-choice question with the rest of the players. The more people who get it right, the more points you cash in — unless, of course, you get one of the snake cards. All the snakes already know the answer, so their job is a bit simpler. To score points, they have to sabotage the discussion and mislead the other players.",
         img: "./img/snakesss.png",
         genre: "Social Deduction",
+        new: false,
+    },
+    {
+        name: "Unmatched: Cobble & Fog",
+        playerCount: "2-4",
+        playTime: 30,
+        description: "Unmatched: Cobble & Fog features four new heroes for the Unmatched system. Unmatched is a highly asymmetrical miniature fighting game for two or four players. Each hero is represented by a unique deck designed to evoke their style and legend. Tactical movement and no-luck combat resolution create a unique play experience that rewards expertise, but just when you've mastered one set, new heroes arrive to provide all new match-ups.",
+        img: "./img/cobble-fog.png",
+        genre: "Card Game",
+        new: true,
+    },
+    {
+        name: "SCOUT",
+        playerCount: "2-5",
+        playTime: 15,
+        description: "SCOUT is a ladder-climbing game in which cards have two potential values, players may not rearrange their hand of cards, and players may pass their turn to take a card from the current high set of cards into their hand.",
+        img: "./img/scout.png",
+        genre: "Card Game",
+        new: true,
+    },
+    {
+        name: "Just One",
+        playerCount: "3-7",
+        playTime: 20,
+        description: "Just One is a cooperative party game in which you play together to discover as many mystery words as possible. Find the best clue to help your teammate. Be unique, as all identical clues will be cancelled! A complete game is played over 13 cards. The goal is to get a score as close to 13 as possible. In case of a right answer, the players score 1 point. In case of wrong answer, they lose the current card as well as the top card of the deck. Thus losing 2 points. In case of lack of answer, the players only lose the current card, and therefore only 1 point.",
+        img: "./img/just-one.png",
+        genre: "Party Game",
+        new: true,
+    },
+    {
+        name: "Mandala",
+        playerCount: "2",
+        playTime: 20,
+        description: "In the two-player game Mandala, you are trying to score more than your opponent by collecting valuable cards — but you won't know which cards are valuable until well into the game! Over the course of the game, players play their colored cards into the two mandalas, building the central shared mountains and laying cards into their own fields. As soon as a mandala has all six colors, the players take turns choosing the colors in the mountain and adding those cards to their 'river' and 'cup'. At the end of the game, the cards in your cup are worth points based on the position of their colors in that player's river. The player whose cup is worth more points wins.",
+        img: "./img/mandala.png",
+        genre: "Strategy",
         new: true,
     }
 ]
