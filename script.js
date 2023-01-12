@@ -592,6 +592,15 @@ const gamesList = [
         img: "./img/mandala.png",
         genre: "Strategy",
         new: true,
+    },
+    {
+        name: "Poetry for Neanderthals",
+        playerCount: "2-12",
+        playTime: 15,
+        description: "Poetry for Neanderthals is a competitive word-guessing game where you can only give clues by speaking in single syllables. So, instead of saying 'broccoli,' you'd say something like 'green thing you eat for live long and have good health.' If you mess up and use a big word, such as 'vegetable,' you get bopped on the head with a NO !Stick and you lose points.",
+        img: "./img/poetry.png",
+        genre: "Party",
+        new: true,
     }
 ]
 
