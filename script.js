@@ -16,7 +16,7 @@ const gamesList = [
         description: "In Take 5, players simultaneously play cards from their hand into a play area. Knowing when to play each card in your hand is key; play the wrong one and you might be collecting 5 cards and getting all of their points. The player with the least amount of points wins.",
         img: "./img/take-5.png",
         genre: "Card Game",
-        favorite: true,
+        favorite: false,
         new: false
     },
     {
@@ -333,7 +333,7 @@ const gamesList = [
         description: "Monikers is a party game based on the public domain game Celebrity, where players take turns attempting to get their teammates to guess names by describing or imitating well-known people. In the first round, clue givers can say anything they want, except for the name itself. For the second round, clue givers can only say one word. And in the final round, clue givers can’t say anything at all: they can only use gestures and charades.",
         img: "./img/monikers.png",
         genre: "Party Game",
-        favorite: true
+        favorite: false
     },
     {
         name: "CONFIDENT?",
@@ -451,7 +451,7 @@ const gamesList = [
         description: "Doodle Dash is a party game where the players draw the same word at the same time. It's a drawing competition where speed can beat skill, so anyone can win! Win by being the fastest doodler, but watch out - you only score if the guesser can actually tell what your drawing is!",
         img: "./img/doodle-dash.png",
         genre: "Party Game",
-        favorite: true,
+        favorite: false,
         new: false
     },
     {
@@ -472,7 +472,7 @@ const gamesList = [
         img: "./img/root.png",
         genre: "Wargame",
         favorite: false,
-        new: true,
+        new: false,
         wishlist: false
     },
     {
@@ -496,17 +496,6 @@ const gamesList = [
         favorite: false,
         new: false
     },
-    // {
-    //     name: "Inis",
-    //     playerCount: "2-4",
-    //     playTime: 75,
-    //     description: "Inis is a game deeply rooted in Celtic history and lore in which players win by being elected King of the Island (Inis). Players can try to achieve one of three different victory conditions. Over the course of the game, players also earn deeds, typically chanted by bards or engraved by master crafters, that reduce by one the magic total of six for any condition. While one victory condition is enough to claim the title of King, a game of experienced players usually has a tight balance of power, emphasizing the leadership of the capital of the island.",
-    //     img: "./img/inis.png",
-    //     genre: "Strategy",
-    //     favorite: false,
-    //     new: false,
-    //     wishlist: true
-    // },
     {
         name: "Calico",
         playerCount: "1-4",
@@ -516,17 +505,6 @@ const gamesList = [
         genre: "Strategy",
         favorite: false,
         new: false
-    },
-    {
-        name: "Inhuman Conditions",
-        playerCount: "2",
-        playTime: 5,
-        description: "Inhuman Conditions is a five-minute, two-player game of surreal interrogation and conversational judo, set in the heart of a chilling bureaucracy. Each game has one Investigator and one Suspect. Armed only with two stamps and a topic of conversation, the Investigator must figure out whether the Suspect is a Human or a Robot. Robots must answer the Investigator's questions without arousing suspicion, but are hampered by some specific malfunction in their ability to converse. They must be clever, guiding the conversation in subtle ways without getting caught. Humans may speak freely, but may find this freedom as much curse as gift. There are no right or wrong answers, only suspicious and innocuous ones, and one slip of the tongue could land Humans and Robots alike in the Bureau's Invasive Confirmation Unit. There, alongside Investigators who make improper determinations, they will await further testing ...",
-        img: "./img/inhuman.png",
-        genre: "Social Deduction",
-        favorite: false,
-        new: false,
-        wishlist: true
     },
     {
         name: "The Fuzzies",
@@ -564,7 +542,7 @@ const gamesList = [
         description: "Unmatched: Cobble & Fog features four new heroes for the Unmatched system. Unmatched is a highly asymmetrical miniature fighting game for two or four players. Each hero is represented by a unique deck designed to evoke their style and legend. Tactical movement and no-luck combat resolution create a unique play experience that rewards expertise, but just when you've mastered one set, new heroes arrive to provide all new match-ups.",
         img: "./img/cobble-fog.png",
         genre: "Card Game",
-        new: true,
+        new: false,
     },
     {
         name: "SCOUT",
@@ -573,7 +551,7 @@ const gamesList = [
         description: "SCOUT is a ladder-climbing game in which cards have two potential values, players may not rearrange their hand of cards, and players may pass their turn to take a card from the current high set of cards into their hand.",
         img: "./img/scout.png",
         genre: "Card Game",
-        new: true,
+        new: false,
     },
     {
         name: "Just One",
@@ -582,7 +560,7 @@ const gamesList = [
         description: "Just One is a cooperative party game in which you play together to discover as many mystery words as possible. Find the best clue to help your teammate. Be unique, as all identical clues will be cancelled! A complete game is played over 13 cards. The goal is to get a score as close to 13 as possible. In case of a right answer, the players score 1 point. In case of wrong answer, they lose the current card as well as the top card of the deck. Thus losing 2 points. In case of lack of answer, the players only lose the current card, and therefore only 1 point.",
         img: "./img/just-one.png",
         genre: "Party Game",
-        new: true,
+        new: false,
     },
     {
         name: "Mandala",
@@ -591,7 +569,7 @@ const gamesList = [
         description: "In the two-player game Mandala, you are trying to score more than your opponent by collecting valuable cards — but you won't know which cards are valuable until well into the game! Over the course of the game, players play their colored cards into the two mandalas, building the central shared mountains and laying cards into their own fields. As soon as a mandala has all six colors, the players take turns choosing the colors in the mountain and adding those cards to their 'river' and 'cup'. At the end of the game, the cards in your cup are worth points based on the position of their colors in that player's river. The player whose cup is worth more points wins.",
         img: "./img/mandala.png",
         genre: "Strategy",
-        new: true,
+        new: false,
     },
     {
         name: "Poetry for Neanderthals",
@@ -600,6 +578,108 @@ const gamesList = [
         description: "Poetry for Neanderthals is a competitive word-guessing game where you can only give clues by speaking in single syllables. So, instead of saying 'broccoli,' you'd say something like 'green thing you eat for live long and have good health.' If you mess up and use a big word, such as 'vegetable,' you get bopped on the head with a NO !Stick and you lose points.",
         img: "./img/poetry.png",
         genre: "Party",
+        new: false,
+    },
+    {
+        name: "The Shipwreck Arcana",
+        playerCount: "2-5",
+        playTime: 20,
+        description: "The Shipwreck Arcana is a compact, co-operative game of deduction, evaluation, and logic. Each player's doom constantly changes as they draw numbered fate tiles from the bag. By choosing which fate to give up and which card to play it on, you can give your allies enough information to identify the fate you're holding...which is important, as the active player cannot communicate with their allies during their turn!",
+        img: "./img/shipwreck-arcana.png",
+        genre: "Strategy",
+        new: true,
+    },
+    {
+        name: "The King is Dead: Second Edition",
+        playerCount: "2-4",
+        playTime: 45,
+        description: "The King is dead. The kingdom is divided. Three factions — the Scottish, the Welsh, and the English — vie for control and, across the sea, foreign invaders prepare to take advantage of the chaos. Players must marshal their limited resources to influence this power struggle, while ensuring that the faction that rises to dominate the realm favors them above all other claimants to the throne.",
+        img: "./img/king-is-dead.png",
+        genre: "Strategy",
+        new: true,
+    },
+    {
+        name: "Schotten Totten",
+        playerCount: "2",
+        playTime: 20,
+        description: "In Schotten Totten, nine boundary stones lie between you and your opponent. In front of each, you build poker-like formations of three cards on a side. Whoever plays the higher-ranking formation wins the stone. And in a unique twist, you may use your powers of logic to claim a stone even before your opponent has played all three of his cards, by demonstrating that the stone is impossible for him to win. Successfully claim five stones, or any three adjacent stones, and you win the game.",
+        img: "./img/schotten-totten.png",
+        genre: "Card Game",
+        new: false,
+    },
+    {
+        name: "Cat in the Box",
+        playerCount: "2-5",
+        playTime: 30,
+        description: "Cat in the Box: Deluxe Edition is the quintessential quantum trick-taking card game for 2 - 5 cool cats, where your card's color isn't defined until you play it! Hypothesize how many tricks you will win, and record your bid. Place tokens on the community research board as you play your hand, and connect large groups of tokens to score even more points. Plan your tricks carefully as you cannot claim the color of a card with the same number that has already been declared. Doing so would be pawsitively catastrophic as you have just created a paradox!",
+        img: "./img/cat-in-the-box.png",
+        genre: "Trick-Taking Game",
+        new: true,
+    },
+    {
+        name: "Heat: Pedal to the Metal",
+        playerCount: "1-6",
+        playTime: 45,
+        description: "Based on simple and intuitive hand management, Heat: Pedal to the Metal puts players in the driver's seat of intense car races, jockeying for position to cross the finish line first, while managing their car's speed if they don't want to overheat. Selecting the right upgrades for their car will help them hug the curves and keep their engine cool enough to maintain top speeds. Ultimately, their driving skills will be the key to victory!",
+        img: "./img/heat.png",
+        genre: "Racing Game",
+        new: true,
+        favorite: true
+    },
+    {
+        name: "Chinatown",
+        playerCount: "3-5",
+        playTime: 60,
+        description: "This is a negotiation game in the truest sense of the word. In it, players acquire ownership of sections of city blocks then place tiles, representing businesses, onto the block-sections. At the end of each turn, each tile you've laid gives you some sort of payout, but completed businesses (formed of three to six connected tiles of the same type) pay quite a bit better. All these resources are dealt to the players randomly, however, so players must trade to get matching businesses and adjacent locations.",
+        img: "./img/chinatown.png",
+        genre: "Negotiation Game",
+        new: true,
+        favorite: true
+    },
+    {
+        name: "World Championship Russian Roulette",
+        playerCount: "2-6",
+        playTime: 25,
+        description: "Congratulations, you've made it to the world championship! Unfortunately, it's the World Championship of Russian Roulette. In this press-your-luck bluffing game of simultaneous play where no player has to wait for their turn, you play the part of a captain of a Russian Roulette team competing against the world's best Russian Roulette teams. The first team to accrue 15 victory points or the last team with their brains still intact wins. You earn victory points by bidding on how many pulls of the trigger you will survive. Any time you lose a teammate, you earn a severance package in the form of an action card. Action cards allow a player to peek at the top three cards of their gun deck before bidding, shoot at another player instead of at themselves, change a bid, and more.",
+        img: "./img/russian-roulette.png",
+        genre: "Bluffing Game",
+        new: true,
+    },
+    {
+        name: "Carcassonne",
+        playerCount: "2-5",
+        playTime: 45,
+        description: "Carcassonne is a tile-placement game in which the players draw and place a tile with a piece of southern French landscape on it. The tile might feature a city, a road, a cloister, grassland or some combination thereof, and it must be placed adjacent to tiles that have already been played, in such a way that cities are connected to cities, roads to roads, etcetera. Having placed a tile, the player can then decide to place one of their meeples on one of the areas on it: on the city as a knight, on the road as a robber, on a cloister as a monk, or on the grass as a farmer. When that area is complete, that meeple scores points for its owner.",
+        img: "./img/carcassonne.png",
+        genre: "City Building Game",
+        new: true,
+    },
+    {
+        name: "Mindbug",
+        playerCount: "2",
+        playTime: 20,
+        description: "In Mindbug, you summon hybrid creatures and send them to battle against your opponent — but when you summon a creature, the opponent may use one of their Mindbugs to take control of it. Outwit your opponent in a fascinating tactical duel in which having the best cards and playing them at the wrong time can be deadly for yourself.",
+        img: "./img/mindbug.png",
+        genre: "Card Game",
+        new: true,
+        favorite: true
+    },
+    {
+        name: "Dixit",
+        playerCount: "3-8",
+        playTime: 30,
+        description: "Each turn in Dixit, one player is the storyteller, chooses one of the six cards in their hand, then makes up a sentence based on that card's image and says it out loud without showing the card to the other players. Each other player then selects the card in their hand that best matches the sentence and gives the selected card to the storyteller, without showing it to anyone else. The storyteller shuffles their card with all of the received cards, then reveals all of these cards. Each player other than the storyteller then secretly guesses which card belongs to the storyteller. If nobody or everybody guesses the correct card, the storyteller scores 0 points, and each other player scores 2 points. Otherwise, the storyteller and whoever found the correct answer score 3 points. Additionally, the non-storyteller players score 1 point for every vote received by their card.",
+        img: "./img/dixit.png",
+        genre: "Party Game",
+        new: false,
+    },
+    {
+        name: "So Clover!",
+        playerCount: "3-6",
+        playTime: 30,
+        description: "So Clover! is a cooperative word-association game. Play as a team to get the highest score. Get Keywords and secretly write their common features on your Clover board; these are your Clues. Then work together to try to figure out each player's Keywords. At the end of the game, add up your score according to how many Keywords you found and write it in the Record of Legends. Try to beat your high score each game!",
+        img: "./img/so-clover.png",
+        genre: "Party Game",
         new: true,
     }
 ]
